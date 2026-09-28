@@ -1,0 +1,16 @@
+date_utc 2026-09-25T03:52:38Z
+git_commit 454ced89a1fa3c7f5af04e3500ee21b8c6895473
+git_dirty no
+yosys Yosys 0.33 (git sha1 2584903a060)
+opensta 3.1.0
+liberty NangateOpenCellLibrary_typical.lib sha256 8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1
+os Ubuntu 24.04.5 LTS
+recipe_default abc -liberty <lib>
+recipe_map_sized abc -liberty <lib> -D <D> -constr synthesis/abc_constr.sdc -script +strash;&get,-n;&fraig,-x;&put;dc2;strash;dch,-f;map,{D};buffer,-p;topo;upsize,{D};dnsize,{D};stime,-p
+recipe_nf_sized abc -liberty <lib> -D <D> -constr synthesis/abc_constr.sdc -script +strash;&get,-n;&fraig,-x;&put;dc2;strash;&get,-n;&dch,-f;&nf,{D};&put;buffer,-p;topo;upsize,{D};dnsize,{D};stime,-p
+abc_constr set_driving_cell BUF_X1;set_load 10.0;
+delays_ps 900 950 1000 1050 1100 1150 1200 1250 1300 1350 1400 1450 1500 1550 1600 1650 1700 1750 1800 1850 1900 1950 2000 2050 2100 2150 2200 2250 2300 2350 2400 2450 2500 2550 2600 2650 2700 2750 2800 2850 2900 2950 3000
+default_period_ns 5.0
+sta_constraints zero input/output delay; 50 ps input transition; 10 fF output load; rst_n false path; ideal clock; no wire load
+act_w 8 (module default)
+acc_w 24 (module default)

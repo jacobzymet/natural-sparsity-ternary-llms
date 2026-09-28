@@ -1,0 +1,68 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.lof
+*.lot
+*.dvi
+*.xdv
+*-blx.bib
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Downloaded checkpoints (analyzed outside the repo)
+checkpoints/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Synthesis / EDA generated files
+synthesis/build/
+synthesis/lib/
+synthesis/reports/
+data/timing/raw/
+*.vcd
+*.fst
+*.vvp
+*.log
+*.tmp
+*.bak

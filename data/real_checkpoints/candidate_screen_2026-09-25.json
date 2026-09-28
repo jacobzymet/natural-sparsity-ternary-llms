@@ -1,0 +1,729 @@
+{
+  "method": "HTTP range reads of selected BitLinear tensors from pinned Hub revisions; sampled densities are estimates over the listed layers only.",
+  "quantizer_backend": "torch 2.14.0+cpu (float32)",
+  "total_bytes_fetched": 2168261364,
+  "candidates": [
+    {
+      "repo_id": "tiiuae/Falcon3-10B-Instruct-1.58bit",
+      "requested_revision": "4b61e8876b19bf7a4b271b757a1bd2974bf38913",
+      "revision": "4b61e8876b19bf7a4b271b757a1bd2974bf38913",
+      "format": "hf-packed",
+      "layers_sampled": [
+        10,
+        20,
+        30
+      ],
+      "num_layers": 40,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 712507392,
+      "sampled_zeros": 222934514,
+      "sampled_zero_density": 0.3128872998415152,
+      "per_type_zero_density": {
+        "q_proj": 0.32391558753119576,
+        "k_proj": 0.3340700997246636,
+        "v_proj": 0.3217320972018772,
+        "o_proj": 0.3180031953034578,
+        "gate_proj": 0.3108313430974513,
+        "up_proj": 0.31099685857325426,
+        "down_proj": 0.31334658022280093
+      },
+      "bytes_fetched": 178200256
+    },
+    {
+      "repo_id": "tiiuae/Falcon-E-1B-Base",
+      "requested_revision": "f4001b8b1c26d28a717d79a8ece14901816d92e8",
+      "revision": "f4001b8b1c26d28a717d79a8ece14901816d92e8",
+      "format": "hf-packed",
+      "layers_sampled": [
+        6,
+        12,
+        18
+      ],
+      "num_layers": 24,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 198180864,
+      "sampled_zeros": 81594631,
+      "sampled_zero_density": 0.4117180102716678,
+      "per_type_zero_density": {
+        "q_proj": 0.45038557052612305,
+        "k_proj": 0.4821949005126953,
+        "v_proj": 0.3987305959065755,
+        "o_proj": 0.39391016960144043,
+        "gate_proj": 0.41260772281222874,
+        "up_proj": 0.4012458059522841,
+        "down_proj": 0.4150680789241084
+      },
+      "bytes_fetched": 49588480
+    },
+    {
+      "repo_id": "tiiuae/Falcon-E-3B-Base",
+      "requested_revision": "ad18b0713c10a8696144b1112accf4ccd28af6d3",
+      "revision": "ad18b0713c10a8696144b1112accf4ccd28af6d3",
+      "format": "hf-packed",
+      "layers_sampled": [
+        8,
+        16,
+        24
+      ],
+      "num_layers": 32,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 273678336,
+      "sampled_zeros": 110012304,
+      "sampled_zero_density": 0.40197666212059985,
+      "per_type_zero_density": {
+        "q_proj": 0.46801328659057617,
+        "k_proj": 0.43684959411621094,
+        "v_proj": 0.4313316345214844,
+        "o_proj": 0.4165281454722087,
+        "gate_proj": 0.39813025792439777,
+        "up_proj": 0.3896169051145896,
+        "down_proj": 0.40454950088109726
+      },
+      "bytes_fetched": 68477248
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_99M_Unpacked",
+      "requested_revision": "61cd2c766000fc544595d6570ad1990017d0cb43",
+      "revision": "61cd2c766000fc544595d6570ad1990017d0cb43",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        4,
+        8,
+        12
+      ],
+      "num_layers": 16,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 9043968,
+      "sampled_zeros": 3662791,
+      "sampled_zero_density": 0.40499822644219885,
+      "per_type_zero_density": {
+        "q_proj": 0.4268989562988281,
+        "k_proj": 0.4593849182128906,
+        "v_proj": 0.3519439697265625,
+        "o_proj": 0.3801587422688802,
+        "gate_proj": 0.3981089274088542,
+        "up_proj": 0.39715169270833334,
+        "down_proj": 0.4203765869140625
+      },
+      "bytes_fetched": 18104288
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_390M_Unpacked",
+      "requested_revision": "79cd1fe5a9650ea5342baa2034ecb1b2aaf792e9",
+      "revision": "79cd1fe5a9650ea5342baa2034ecb1b2aaf792e9",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        6,
+        12,
+        18
+      ],
+      "num_layers": 24,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 36175872,
+      "sampled_zeros": 14795319,
+      "sampled_zero_density": 0.4089830647344175,
+      "per_type_zero_density": {
+        "q_proj": 0.47215429941813153,
+        "k_proj": 0.5014737447102865,
+        "v_proj": 0.36853281656901044,
+        "o_proj": 0.3834451039632161,
+        "gate_proj": 0.3975897471110026,
+        "up_proj": 0.39454943339029946,
+        "down_proj": 0.3989405314127604
+      },
+      "bytes_fetched": 72376472
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_830M_Unpacked",
+      "requested_revision": "e220c2792a635575f7ebb419f77e8e4e047f052c",
+      "revision": "e220c2792a635575f7ebb419f77e8e4e047f052c",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        6,
+        12,
+        18
+      ],
+      "num_layers": 24,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 84934656,
+      "sampled_zeros": 34701560,
+      "sampled_zero_density": 0.408567734706549,
+      "per_type_zero_density": {
+        "q_proj": 0.4777135495786314,
+        "k_proj": 0.5032779552318432,
+        "v_proj": 0.37275300202546297,
+        "o_proj": 0.3877341658980758,
+        "gate_proj": 0.3987432056003147,
+        "up_proj": 0.3924500147501628,
+        "down_proj": 0.39430708355373806
+      },
+      "bytes_fetched": 169894256
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_2.4B_Unpacked",
+      "requested_revision": "f7f0523855503e83f90d6f0e0f79daa61fabe8d1",
+      "revision": "f7f0523855503e83f90d6f0e0f79daa61fabe8d1",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        15
+      ],
+      "num_layers": 30,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 74317824,
+      "sampled_zeros": 30656340,
+      "sampled_zero_density": 0.4125031970796131,
+      "per_type_zero_density": {
+        "q_proj": 0.5201915222921489,
+        "k_proj": 0.5464532169294946,
+        "v_proj": 0.38108411247347607,
+        "o_proj": 0.39887736756124614,
+        "gate_proj": 0.4004062228732639,
+        "up_proj": 0.3859513459382234,
+        "down_proj": 0.392173993145978
+      },
+      "bytes_fetched": 148666984
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_3.9B_Unpacked",
+      "requested_revision": "90dbbd12fe60ec9835890f61b5b6a2289ad827ac",
+      "revision": "90dbbd12fe60ec9835890f61b5b6a2289ad827ac",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        15
+      ],
+      "num_layers": 30,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "mlp.up_proj.weight"
+      ],
+      "sampled_weights": 37748736,
+      "sampled_zeros": 15334770,
+      "sampled_zero_density": 0.40623267491658527,
+      "per_type_zero_density": {
+        "q_proj": 0.47269842359754777,
+        "up_proj": 0.3840774253562645
+      },
+      "bytes_fetched": 75528808
+    },
+    {
+      "repo_id": "1bitLLM/bitnet_b1_58-xl",
+      "requested_revision": "f99799ff5b55cc2dce88832644b9ff1c44f6c434",
+      "revision": "f99799ff5b55cc2dce88832644b9ff1c44f6c434",
+      "format": "absmean-latent",
+      "layers_sampled": [
+        12
+      ],
+      "num_layers": 24,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "mlp.up_proj.weight"
+      ],
+      "sampled_weights": 15376384,
+      "sampled_zeros": 5938331,
+      "sampled_zero_density": 0.38619814645628,
+      "per_type_zero_density": {
+        "q_proj": 0.4588320255279541,
+        "up_proj": 0.35895379035027475
+      },
+      "bytes_fetched": 61538856
+    },
+    {
+      "repo_id": "1bitLLM/bitnet_b1_58-3B",
+      "requested_revision": "af89e318d78a70802061246bf037199d2fb97020",
+      "revision": "af89e318d78a70802061246bf037199d2fb97020",
+      "format": "absmean-latent",
+      "layers_sampled": [
+        13
+      ],
+      "num_layers": 26,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "mlp.up_proj.weight"
+      ],
+      "sampled_weights": 37888000,
+      "sampled_zeros": 14952360,
+      "sampled_zero_density": 0.3946463260135135,
+      "per_type_zero_density": {
+        "q_proj": 0.484758203125,
+        "up_proj": 0.36127155671296296
+      },
+      "bytes_fetched": 151588104
+    },
+    {
+      "repo_id": "ridger/MMfreeLM-370M",
+      "requested_revision": "4c799d7e1fcc66093a27acf36ab2faffd8bb9626",
+      "revision": "4c799d7e1fcc66093a27acf36ab2faffd8bb9626",
+      "format": "absmean-latent",
+      "layers_sampled": [
+        6,
+        12,
+        18
+      ],
+      "num_layers": 24,
+      "tensor_suffixes": [
+        "attn.i_proj.weight",
+        "attn.f_proj.weight",
+        "attn.g_proj.weight",
+        "attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 38535168,
+      "sampled_zeros": 13594388,
+      "sampled_zero_density": 0.35277873966969603,
+      "per_type_zero_density": {
+        "i_proj": 0.34478505452473956,
+        "f_proj": 0.36165491739908856,
+        "g_proj": 0.36191368103027344,
+        "o_proj": 0.3211021423339844,
+        "gate_proj": 0.362049911961411,
+        "down_proj": 0.34211245450106537
+      },
+      "bytes_fetched": 77110344
+    },
+    {
+      "repo_id": "ridger/MMfreeLM-1.3B",
+      "requested_revision": "b6d861b71c2f53ce7b84033fa764594cae972956",
+      "revision": "b6d861b71c2f53ce7b84033fa764594cae972956",
+      "format": "absmean-latent",
+      "layers_sampled": [
+        6,
+        12,
+        18
+      ],
+      "num_layers": 24,
+      "tensor_suffixes": [
+        "attn.i_proj.weight",
+        "attn.f_proj.weight",
+        "attn.g_proj.weight",
+        "attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 154140672,
+      "sampled_zeros": 54686392,
+      "sampled_zero_density": 0.35478236399540286,
+      "per_type_zero_density": {
+        "i_proj": 0.35717980066935223,
+        "f_proj": 0.36715062459309894,
+        "g_proj": 0.3581968943277995,
+        "o_proj": 0.28995800018310547,
+        "gate_proj": 0.36872794411399146,
+        "down_proj": 0.3438527078339548
+      },
+      "bytes_fetched": 308321880
+    },
+    {
+      "repo_id": "ridger/MMfreeLM-2.7B",
+      "requested_revision": "77deff0c1c9ac79aa51eb3ab7dd34fc375bf9324",
+      "revision": "77deff0c1c9ac79aa51eb3ab7dd34fc375bf9324",
+      "format": "absmean-latent",
+      "layers_sampled": [
+        16
+      ],
+      "num_layers": 32,
+      "tensor_suffixes": [
+        "attn.i_proj.weight",
+        "attn.f_proj.weight",
+        "attn.g_proj.weight",
+        "attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 79298560,
+      "sampled_zeros": 28765075,
+      "sampled_zero_density": 0.36274397668759684,
+      "per_type_zero_density": {
+        "i_proj": 0.3755096435546875,
+        "f_proj": 0.3953666687011719,
+        "g_proj": 0.39121902465820313,
+        "o_proj": 0.32004486083984374,
+        "gate_proj": 0.3683502479835793,
+        "down_proj": 0.3399891040943287
+      },
+      "bytes_fetched": 158651184
+    },
+    {
+      "repo_id": "prism-ml/Ternary-Bonsai-1.7B-unpacked",
+      "requested_revision": "3aca840085293d026ce6f6b80fafdae937fd2eeb",
+      "revision": "3aca840085293d026ce6f6b80fafdae937fd2eeb",
+      "format": "group-prescaled",
+      "layers_sampled": [
+        14
+      ],
+      "num_layers": 28,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 50331648,
+      "sampled_zeros": 20802909,
+      "sampled_zero_density": 0.41331666707992554,
+      "per_type_zero_density": {
+        "q_proj": 0.40010857582092285,
+        "k_proj": 0.4177823066711426,
+        "v_proj": 0.4006056785583496,
+        "o_proj": 0.39488935470581055,
+        "gate_proj": 0.4292728900909424,
+        "up_proj": 0.405609130859375,
+        "down_proj": 0.4169873396555583
+      },
+      "bytes_fetched": 100698616,
+      "notes": [
+        "one magnitude (within 1%) per contiguous K-group of 128"
+      ],
+      "groups_with_magnitudes_differing_within_tolerance": 17
+    },
+    {
+      "repo_id": "prism-ml/Ternary-Bonsai-8B-unpacked",
+      "requested_revision": "ac20f03fc62e872399218b659c8e949dfca05769",
+      "revision": "ac20f03fc62e872399218b659c8e949dfca05769",
+      "format": "group-prescaled",
+      "layers_sampled": [
+        18
+      ],
+      "num_layers": 36,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "mlp.up_proj.weight"
+      ],
+      "sampled_weights": 67108864,
+      "sampled_zeros": 26263831,
+      "sampled_zero_density": 0.3913615792989731,
+      "per_type_zero_density": {
+        "q_proj": 0.39075398445129395,
+        "up_proj": 0.39156411091486615
+      },
+      "bytes_fetched": 134263264,
+      "notes": [
+        "one magnitude (within 1%) per contiguous K-group of 128"
+      ],
+      "groups_with_magnitudes_differing_within_tolerance": 0
+    },
+    {
+      "repo_id": "NousResearch/OLMo-Bitnet-1B",
+      "requested_revision": "cd17870d2c3a3557b5ca8efc693117c8ea0312f3",
+      "revision": "cd17870d2c3a3557b5ca8efc693117c8ea0312f3",
+      "format": "torch-zip-absmean",
+      "layers_sampled": [
+        8
+      ],
+      "num_layers": 16,
+      "tensor_suffixes": [
+        "att_proj.weight",
+        "attn_out.weight",
+        "ff_proj.weight",
+        "ff_out.weight"
+      ],
+      "sampled_weights": 67108864,
+      "sampled_zeros": 23885357,
+      "sampled_zero_density": 0.3559195548295975,
+      "per_type_zero_density": {
+        "att_proj": 0.3183135191599528,
+        "attn_out": 0.3404209613800049,
+        "ff_proj": 0.3663950562477112,
+        "ff_out": 0.3670477271080017
+      },
+      "bytes_fetched": 268522308
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_99M_Unpacked_ckpts",
+      "requested_revision": "step10000",
+      "revision": "5473546eb0371e87d522865d1f92a3b15ffbe427",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        4,
+        8,
+        12
+      ],
+      "num_layers": 16,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 9043968,
+      "sampled_zeros": 3537420,
+      "sampled_zero_density": 0.391135837720788,
+      "per_type_zero_density": {
+        "q_proj": 0.4025535583496094,
+        "k_proj": 0.418609619140625,
+        "v_proj": 0.39664459228515625,
+        "o_proj": 0.37795384724934894,
+        "gate_proj": 0.3866124471028646,
+        "up_proj": 0.3828374226888021,
+        "down_proj": 0.3914703369140625
+      },
+      "bytes_fetched": 18104288
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_99M_Unpacked_ckpts",
+      "requested_revision": "step30000",
+      "revision": "c23c3bba86a945ec25bc8a583d32846cb0cd39d7",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        4,
+        8,
+        12
+      ],
+      "num_layers": 16,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 9043968,
+      "sampled_zeros": 3569622,
+      "sampled_zero_density": 0.3946964429772418,
+      "per_type_zero_density": {
+        "q_proj": 0.4057146708170573,
+        "k_proj": 0.4311116536458333,
+        "v_proj": 0.3846435546875,
+        "o_proj": 0.3745231628417969,
+        "gate_proj": 0.3913121541341146,
+        "up_proj": 0.38990987141927086,
+        "down_proj": 0.3959843953450521
+      },
+      "bytes_fetched": 18104288
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_99M_Unpacked_ckpts",
+      "requested_revision": "step60000",
+      "revision": "dd3c5d6f714208ca4e09dd6bd6e4c8c2ee8121d5",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        4,
+        8,
+        12
+      ],
+      "num_layers": 16,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 9043968,
+      "sampled_zeros": 3573270,
+      "sampled_zero_density": 0.39509980574898096,
+      "per_type_zero_density": {
+        "q_proj": 0.40886815388997394,
+        "k_proj": 0.4419962565104167,
+        "v_proj": 0.3744239807128906,
+        "o_proj": 0.3706855773925781,
+        "gate_proj": 0.3918426513671875,
+        "up_proj": 0.3917002360026042,
+        "down_proj": 0.3955266316731771
+      },
+      "bytes_fetched": 18104288
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_99M_Unpacked_ckpts",
+      "requested_revision": "step100000",
+      "revision": "96da07b31f2b396602222ad71f2ad69ff3226958",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        4,
+        8,
+        12
+      ],
+      "num_layers": 16,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 9043968,
+      "sampled_zeros": 3574472,
+      "sampled_zero_density": 0.39523271201313404,
+      "per_type_zero_density": {
+        "q_proj": 0.4123077392578125,
+        "k_proj": 0.44774627685546875,
+        "v_proj": 0.3691902160644531,
+        "o_proj": 0.3669395446777344,
+        "gate_proj": 0.3917851765950521,
+        "up_proj": 0.3936106363932292,
+        "down_proj": 0.3942011515299479
+      },
+      "bytes_fetched": 18104288
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_99M_Unpacked_ckpts",
+      "requested_revision": "step150000",
+      "revision": "24dc0b7c58f646dc5e79f4ec4e7c3066e5268407",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        4,
+        8,
+        12
+      ],
+      "num_layers": 16,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 9043968,
+      "sampled_zeros": 3578951,
+      "sampled_zero_density": 0.3957279592320539,
+      "per_type_zero_density": {
+        "q_proj": 0.4141222635904948,
+        "k_proj": 0.4499168395996094,
+        "v_proj": 0.3642743428548177,
+        "o_proj": 0.36675262451171875,
+        "gate_proj": 0.39292755126953127,
+        "up_proj": 0.39520111083984377,
+        "down_proj": 0.39419352213541664
+      },
+      "bytes_fetched": 18104288
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_99M_Unpacked_ckpts",
+      "requested_revision": "step210000",
+      "revision": "73bff536685a8a7aabaa7eb1eb8f82113019b2b6",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        4,
+        8,
+        12
+      ],
+      "num_layers": 16,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 9043968,
+      "sampled_zeros": 3631819,
+      "sampled_zero_density": 0.4015736234360847,
+      "per_type_zero_density": {
+        "q_proj": 0.4360148111979167,
+        "k_proj": 0.47023264567057294,
+        "v_proj": 0.35651906331380206,
+        "o_proj": 0.37200673421223956,
+        "gate_proj": 0.3991358439127604,
+        "up_proj": 0.3988393147786458,
+        "down_proj": 0.39535420735677085
+      },
+      "bytes_fetched": 18104288
+    },
+    {
+      "repo_id": "SpectraSuite/TriLM_99M_Unpacked_ckpts",
+      "requested_revision": "step280000",
+      "revision": "dc8ac876847faf00b6ce03239a6ef3be084632f0",
+      "format": "prescaled-ternary",
+      "layers_sampled": [
+        4,
+        8,
+        12
+      ],
+      "num_layers": 16,
+      "tensor_suffixes": [
+        "self_attn.q_proj.weight",
+        "self_attn.k_proj.weight",
+        "self_attn.v_proj.weight",
+        "self_attn.o_proj.weight",
+        "mlp.gate_proj.weight",
+        "mlp.up_proj.weight",
+        "mlp.down_proj.weight"
+      ],
+      "sampled_weights": 9043968,
+      "sampled_zeros": 3662791,
+      "sampled_zero_density": 0.40499822644219885,
+      "per_type_zero_density": {
+        "q_proj": 0.4268989562988281,
+        "k_proj": 0.4593849182128906,
+        "v_proj": 0.3519439697265625,
+        "o_proj": 0.3801587422688802,
+        "gate_proj": 0.3981089274088542,
+        "up_proj": 0.39715169270833334,
+        "down_proj": 0.4203765869140625
+      },
+      "bytes_fetched": 18104288
+    }
+  ]
+}

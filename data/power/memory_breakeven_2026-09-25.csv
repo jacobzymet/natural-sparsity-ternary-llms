@@ -1,0 +1,141 @@
+clock_period_ns,netlists,engine,workload,zero_density,compute_energy_delta_fj_per_weight,memory_bits_delta_per_weight,outcome,break_even_memory_pj_per_bit
+2.50,default flow,bitcos_stream5_bank_fed,bitnet,0.4387,+6.127,-0.03854,saves if memory energy per bit is above,0.159
+2.50,default flow,bitcos_stream5_bank_fed+repack,bitnet,0.4387,+49.109,-0.03854,saves if memory energy per bit is above,1.274
+2.50,default flow,bitcos_stream5_direct,bitnet,0.4387,+14.468,-0.03854,saves if memory energy per bit is above,0.375
+2.50,default flow,bitcos_stream5_directiso,bitnet,0.4387,+8.886,-0.03854,saves if memory energy per bit is above,0.231
+2.50,default flow,bitcos_stream5_fed,bitnet,0.4387,+70.625,-0.03854,saves if memory energy per bit is above,1.833
+2.50,default flow,bitcos_stream5_bank_fed,z0.20,0.1991,+0.779,+0.20091,never saves,
+2.50,default flow,bitcos_stream5_bank_fed+repack,z0.20,0.1991,+49.580,+0.20091,never saves,
+2.50,default flow,bitcos_stream5_direct,z0.20,0.1991,+1.395,+0.20091,never saves,
+2.50,default flow,bitcos_stream5_directiso,z0.20,0.1991,-2.578,+0.20091,saves only if memory energy per bit is below,0.013
+2.50,default flow,bitcos_stream5_fed,z0.20,0.1991,+61.196,+0.20091,never saves,
+2.50,default flow,bitcos_stream5_bank_fed,z0.30,0.2995,+2.599,+0.10052,never saves,
+2.50,default flow,bitcos_stream5_bank_fed+repack,z0.30,0.2995,+48.304,+0.10052,never saves,
+2.50,default flow,bitcos_stream5_direct,z0.30,0.2995,+7.211,+0.10052,never saves,
+2.50,default flow,bitcos_stream5_directiso,z0.30,0.2995,+2.488,+0.10052,never saves,
+2.50,default flow,bitcos_stream5_fed,z0.30,0.2995,+66.382,+0.10052,never saves,
+2.50,default flow,bitcos_stream5_bank_fed,z0.4221,0.4225,+5.388,-0.02253,saves if memory energy per bit is above,0.239
+2.50,default flow,bitcos_stream5_bank_fed+repack,z0.4221,0.4225,+48.937,-0.02253,saves if memory energy per bit is above,2.172
+2.50,default flow,bitcos_stream5_direct,z0.4221,0.4225,+13.680,-0.02253,saves if memory energy per bit is above,0.607
+2.50,default flow,bitcos_stream5_directiso,z0.4221,0.4225,+8.126,-0.02253,saves if memory energy per bit is above,0.361
+2.50,default flow,bitcos_stream5_fed,z0.4221,0.4225,+71.269,-0.02253,saves if memory energy per bit is above,3.163
+2.50,default flow,bitcos_stream5_bank_fed,z0.50,0.5004,+7.852,-0.10039,saves if memory energy per bit is above,0.078
+2.50,default flow,bitcos_stream5_bank_fed+repack,z0.50,0.5004,+51.005,-0.10039,saves if memory energy per bit is above,0.508
+2.50,default flow,bitcos_stream5_direct,z0.50,0.5004,+17.912,-0.10039,saves if memory energy per bit is above,0.178
+2.50,default flow,bitcos_stream5_directiso,z0.50,0.5004,+11.641,-0.10039,saves if memory energy per bit is above,0.116
+2.50,default flow,bitcos_stream5_fed,z0.50,0.5004,+73.858,-0.10039,saves if memory energy per bit is above,0.736
+2.50,default flow,bitcos_stream5_bank_fed,z0.60,0.6006,+11.193,-0.20052,saves if memory energy per bit is above,0.056
+2.50,default flow,bitcos_stream5_bank_fed+repack,z0.60,0.6006,+54.992,-0.20052,saves if memory energy per bit is above,0.274
+2.50,default flow,bitcos_stream5_direct,z0.60,0.6006,+22.418,-0.20052,saves if memory energy per bit is above,0.112
+2.50,default flow,bitcos_stream5_directiso,z0.60,0.6006,+15.422,-0.20052,saves if memory energy per bit is above,0.077
+2.50,default flow,bitcos_stream5_fed,z0.60,0.6006,+75.971,-0.20052,saves if memory energy per bit is above,0.379
+2.50,default flow,bitcos_stream5_bank_fed,z0.70,0.6993,+14.109,-0.29922,saves if memory energy per bit is above,0.047
+2.50,default flow,bitcos_stream5_bank_fed+repack,z0.70,0.6993,+59.792,-0.29922,saves if memory energy per bit is above,0.200
+2.50,default flow,bitcos_stream5_direct,z0.70,0.6993,+25.267,-0.29922,saves if memory energy per bit is above,0.084
+2.50,default flow,bitcos_stream5_directiso,z0.70,0.6993,+18.151,-0.29922,saves if memory energy per bit is above,0.061
+2.50,default flow,bitcos_stream5_fed,z0.70,0.6993,+76.286,-0.29922,saves if memory energy per bit is above,0.255
+1.60,smallest meeting clock,bitcos_stream5_bank_fed,bitnet,0.4387,+1.030,-0.03854,saves if memory energy per bit is above,0.027
+1.60,smallest meeting clock,bitcos_stream5_bank_fed+repack,bitnet,0.4387,+43.192,-0.03854,saves if memory energy per bit is above,1.121
+1.60,smallest meeting clock,bitcos_stream5_direct,bitnet,0.4387,+4.496,-0.03854,saves if memory energy per bit is above,0.117
+1.60,smallest meeting clock,bitcos_stream5_directiso,bitnet,0.4387,+4.619,-0.03854,saves if memory energy per bit is above,0.120
+1.60,smallest meeting clock,bitcos_stream5_fed,bitnet,0.4387,+71.729,-0.03854,saves if memory energy per bit is above,1.861
+1.60,smallest meeting clock,bitcos_stream5_bank_fed,z0.20,0.1991,-7.680,+0.20091,saves only if memory energy per bit is below,0.038
+1.60,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.20,0.1991,+40.292,+0.20091,never saves,
+1.60,smallest meeting clock,bitcos_stream5_direct,z0.20,0.1991,-10.495,+0.20091,saves only if memory energy per bit is below,0.052
+1.60,smallest meeting clock,bitcos_stream5_directiso,z0.20,0.1991,-7.693,+0.20091,saves only if memory energy per bit is below,0.038
+1.60,smallest meeting clock,bitcos_stream5_fed,z0.20,0.1991,+62.468,+0.20091,never saves,
+1.60,smallest meeting clock,bitcos_stream5_bank_fed,z0.30,0.2995,-4.503,+0.10052,saves only if memory energy per bit is below,0.045
+1.60,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.30,0.2995,+40.376,+0.10052,never saves,
+1.60,smallest meeting clock,bitcos_stream5_direct,z0.30,0.2995,-4.766,+0.10052,saves only if memory energy per bit is below,0.047
+1.60,smallest meeting clock,bitcos_stream5_directiso,z0.30,0.2995,-2.852,+0.10052,saves only if memory energy per bit is below,0.028
+1.60,smallest meeting clock,bitcos_stream5_fed,z0.30,0.2995,+66.578,+0.10052,never saves,
+1.60,smallest meeting clock,bitcos_stream5_bank_fed,z0.4221,0.4225,+0.077,-0.02253,saves if memory energy per bit is above,0.003
+1.60,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.4221,0.4225,+42.805,-0.02253,saves if memory energy per bit is above,1.900
+1.60,smallest meeting clock,bitcos_stream5_direct,z0.4221,0.4225,+3.112,-0.02253,saves if memory energy per bit is above,0.138
+1.60,smallest meeting clock,bitcos_stream5_directiso,z0.4221,0.4225,+3.297,-0.02253,saves if memory energy per bit is above,0.146
+1.60,smallest meeting clock,bitcos_stream5_fed,z0.4221,0.4225,+71.519,-0.02253,saves if memory energy per bit is above,3.174
+1.60,smallest meeting clock,bitcos_stream5_bank_fed,z0.50,0.5004,+3.556,-0.10039,saves if memory energy per bit is above,0.035
+1.60,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.50,0.5004,+45.892,-0.10039,saves if memory energy per bit is above,0.457
+1.60,smallest meeting clock,bitcos_stream5_direct,z0.50,0.5004,+8.791,-0.10039,saves if memory energy per bit is above,0.088
+1.60,smallest meeting clock,bitcos_stream5_directiso,z0.50,0.5004,+7.426,-0.10039,saves if memory energy per bit is above,0.074
+1.60,smallest meeting clock,bitcos_stream5_fed,z0.50,0.5004,+74.715,-0.10039,saves if memory energy per bit is above,0.744
+1.60,smallest meeting clock,bitcos_stream5_bank_fed,z0.60,0.6006,+8.434,-0.20052,saves if memory energy per bit is above,0.042
+1.60,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.60,0.6006,+51.422,-0.20052,saves if memory energy per bit is above,0.256
+1.60,smallest meeting clock,bitcos_stream5_direct,z0.60,0.6006,+16.215,-0.20052,saves if memory energy per bit is above,0.081
+1.60,smallest meeting clock,bitcos_stream5_directiso,z0.60,0.6006,+12.656,-0.20052,saves if memory energy per bit is above,0.063
+1.60,smallest meeting clock,bitcos_stream5_fed,z0.60,0.6006,+78.753,-0.20052,saves if memory energy per bit is above,0.393
+1.60,smallest meeting clock,bitcos_stream5_bank_fed,z0.70,0.6993,+12.956,-0.29922,saves if memory energy per bit is above,0.043
+1.60,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.70,0.6993,+57.836,-0.29922,saves if memory energy per bit is above,0.193
+1.60,smallest meeting clock,bitcos_stream5_direct,z0.70,0.6993,+22.472,-0.29922,saves if memory energy per bit is above,0.075
+1.60,smallest meeting clock,bitcos_stream5_directiso,z0.70,0.6993,+17.079,-0.29922,saves if memory energy per bit is above,0.057
+1.60,smallest meeting clock,bitcos_stream5_fed,z0.70,0.6993,+81.738,-0.29922,saves if memory energy per bit is above,0.273
+2.00,smallest meeting clock,bitcos_stream5_bank_fed,bitnet,0.4387,+28.313,-0.03854,saves if memory energy per bit is above,0.735
+2.00,smallest meeting clock,bitcos_stream5_bank_fed+repack,bitnet,0.4387,+70.840,-0.03854,saves if memory energy per bit is above,1.838
+2.00,smallest meeting clock,bitcos_stream5_direct,bitnet,0.4387,+35.522,-0.03854,saves if memory energy per bit is above,0.922
+2.00,smallest meeting clock,bitcos_stream5_directiso,bitnet,0.4387,+32.179,-0.03854,saves if memory energy per bit is above,0.835
+2.00,smallest meeting clock,bitcos_stream5_fed,bitnet,0.4387,+88.797,-0.03854,saves if memory energy per bit is above,2.304
+2.00,smallest meeting clock,bitcos_stream5_bank_fed,z0.20,0.1991,+23.792,+0.20091,never saves,
+2.00,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.20,0.1991,+72.133,+0.20091,never saves,
+2.00,smallest meeting clock,bitcos_stream5_direct,z0.20,0.1991,+27.106,+0.20091,never saves,
+2.00,smallest meeting clock,bitcos_stream5_directiso,z0.20,0.1991,+25.381,+0.20091,never saves,
+2.00,smallest meeting clock,bitcos_stream5_fed,z0.20,0.1991,+81.886,+0.20091,never saves,
+2.00,smallest meeting clock,bitcos_stream5_bank_fed,z0.30,0.2995,+25.838,+0.10052,never saves,
+2.00,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.30,0.2995,+71.084,+0.10052,never saves,
+2.00,smallest meeting clock,bitcos_stream5_direct,z0.30,0.2995,+31.043,+0.10052,never saves,
+2.00,smallest meeting clock,bitcos_stream5_directiso,z0.30,0.2995,+28.728,+0.10052,never saves,
+2.00,smallest meeting clock,bitcos_stream5_fed,z0.30,0.2995,+86.064,+0.10052,never saves,
+2.00,smallest meeting clock,bitcos_stream5_bank_fed,z0.4221,0.4225,+28.151,-0.02253,saves if memory energy per bit is above,1.249
+2.00,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.4221,0.4225,+71.244,-0.02253,saves if memory energy per bit is above,3.162
+2.00,smallest meeting clock,bitcos_stream5_direct,z0.4221,0.4225,+35.819,-0.02253,saves if memory energy per bit is above,1.590
+2.00,smallest meeting clock,bitcos_stream5_directiso,z0.4221,0.4225,+32.480,-0.02253,saves if memory energy per bit is above,1.442
+2.00,smallest meeting clock,bitcos_stream5_fed,z0.4221,0.4225,+89.612,-0.02253,saves if memory energy per bit is above,3.977
+2.00,smallest meeting clock,bitcos_stream5_bank_fed,z0.50,0.5004,+29.686,-0.10039,saves if memory energy per bit is above,0.296
+2.00,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.50,0.5004,+72.385,-0.10039,saves if memory energy per bit is above,0.721
+2.00,smallest meeting clock,bitcos_stream5_direct,z0.50,0.5004,+38.774,-0.10039,saves if memory energy per bit is above,0.386
+2.00,smallest meeting clock,bitcos_stream5_directiso,z0.50,0.5004,+34.416,-0.10039,saves if memory energy per bit is above,0.343
+2.00,smallest meeting clock,bitcos_stream5_fed,z0.50,0.5004,+91.132,-0.10039,saves if memory energy per bit is above,0.908
+2.00,smallest meeting clock,bitcos_stream5_bank_fed,z0.60,0.6006,+31.185,-0.20052,saves if memory energy per bit is above,0.156
+2.00,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.60,0.6006,+74.534,-0.20052,saves if memory energy per bit is above,0.372
+2.00,smallest meeting clock,bitcos_stream5_direct,z0.60,0.6006,+41.793,-0.20052,saves if memory energy per bit is above,0.208
+2.00,smallest meeting clock,bitcos_stream5_directiso,z0.60,0.6006,+36.096,-0.20052,saves if memory energy per bit is above,0.180
+2.00,smallest meeting clock,bitcos_stream5_fed,z0.60,0.6006,+91.640,-0.20052,saves if memory energy per bit is above,0.457
+2.00,smallest meeting clock,bitcos_stream5_bank_fed,z0.70,0.6993,+31.559,-0.29922,saves if memory energy per bit is above,0.105
+2.00,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.70,0.6993,+76.796,-0.29922,saves if memory energy per bit is above,0.257
+2.00,smallest meeting clock,bitcos_stream5_direct,z0.70,0.6993,+42.979,-0.29922,saves if memory energy per bit is above,0.144
+2.00,smallest meeting clock,bitcos_stream5_directiso,z0.70,0.6993,+36.314,-0.29922,saves if memory energy per bit is above,0.121
+2.00,smallest meeting clock,bitcos_stream5_fed,z0.70,0.6993,+90.062,-0.29922,saves if memory energy per bit is above,0.301
+2.50,smallest meeting clock,bitcos_stream5_bank_fed,bitnet,0.4387,+31.216,-0.03854,saves if memory energy per bit is above,0.810
+2.50,smallest meeting clock,bitcos_stream5_bank_fed+repack,bitnet,0.4387,+74.198,-0.03854,saves if memory energy per bit is above,1.925
+2.50,smallest meeting clock,bitcos_stream5_direct,bitnet,0.4387,+39.089,-0.03854,saves if memory energy per bit is above,1.014
+2.50,smallest meeting clock,bitcos_stream5_directiso,bitnet,0.4387,+33.507,-0.03854,saves if memory energy per bit is above,0.869
+2.50,smallest meeting clock,bitcos_stream5_fed,bitnet,0.4387,+95.714,-0.03854,saves if memory energy per bit is above,2.483
+2.50,smallest meeting clock,bitcos_stream5_bank_fed,z0.20,0.1991,+30.059,+0.20091,never saves,
+2.50,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.20,0.1991,+78.860,+0.20091,never saves,
+2.50,smallest meeting clock,bitcos_stream5_direct,z0.20,0.1991,+30.066,+0.20091,never saves,
+2.50,smallest meeting clock,bitcos_stream5_directiso,z0.20,0.1991,+26.093,+0.20091,never saves,
+2.50,smallest meeting clock,bitcos_stream5_fed,z0.20,0.1991,+90.476,+0.20091,never saves,
+2.50,smallest meeting clock,bitcos_stream5_bank_fed,z0.30,0.2995,+30.957,+0.10052,never saves,
+2.50,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.30,0.2995,+76.662,+0.10052,never saves,
+2.50,smallest meeting clock,bitcos_stream5_direct,z0.30,0.2995,+35.075,+0.10052,never saves,
+2.50,smallest meeting clock,bitcos_stream5_directiso,z0.30,0.2995,+30.352,+0.10052,never saves,
+2.50,smallest meeting clock,bitcos_stream5_fed,z0.30,0.2995,+94.740,+0.10052,never saves,
+2.50,smallest meeting clock,bitcos_stream5_bank_fed,z0.4221,0.4225,+32.314,-0.02253,saves if memory energy per bit is above,1.434
+2.50,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.4221,0.4225,+75.863,-0.02253,saves if memory energy per bit is above,3.367
+2.50,smallest meeting clock,bitcos_stream5_direct,z0.4221,0.4225,+40.179,-0.02253,saves if memory energy per bit is above,1.783
+2.50,smallest meeting clock,bitcos_stream5_directiso,z0.4221,0.4225,+34.625,-0.02253,saves if memory energy per bit is above,1.537
+2.50,smallest meeting clock,bitcos_stream5_fed,z0.4221,0.4225,+98.195,-0.02253,saves if memory energy per bit is above,4.358
+2.50,smallest meeting clock,bitcos_stream5_bank_fed,z0.50,0.5004,+32.993,-0.10039,saves if memory energy per bit is above,0.329
+2.50,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.50,0.5004,+76.146,-0.10039,saves if memory energy per bit is above,0.759
+2.50,smallest meeting clock,bitcos_stream5_direct,z0.50,0.5004,+42.649,-0.10039,saves if memory energy per bit is above,0.425
+2.50,smallest meeting clock,bitcos_stream5_directiso,z0.50,0.5004,+36.378,-0.10039,saves if memory energy per bit is above,0.362
+2.50,smallest meeting clock,bitcos_stream5_fed,z0.50,0.5004,+98.999,-0.10039,saves if memory energy per bit is above,0.986
+2.50,smallest meeting clock,bitcos_stream5_bank_fed,z0.60,0.6006,+33.780,-0.20052,saves if memory energy per bit is above,0.168
+2.50,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.60,0.6006,+77.579,-0.20052,saves if memory energy per bit is above,0.387
+2.50,smallest meeting clock,bitcos_stream5_direct,z0.60,0.6006,+44.613,-0.20052,saves if memory energy per bit is above,0.222
+2.50,smallest meeting clock,bitcos_stream5_directiso,z0.60,0.6006,+37.617,-0.20052,saves if memory energy per bit is above,0.188
+2.50,smallest meeting clock,bitcos_stream5_fed,z0.60,0.6006,+98.558,-0.20052,saves if memory energy per bit is above,0.492
+2.50,smallest meeting clock,bitcos_stream5_bank_fed,z0.70,0.6993,+33.262,-0.29922,saves if memory energy per bit is above,0.111
+2.50,smallest meeting clock,bitcos_stream5_bank_fed+repack,z0.70,0.6993,+78.945,-0.29922,saves if memory energy per bit is above,0.264
+2.50,smallest meeting clock,bitcos_stream5_direct,z0.70,0.6993,+43.978,-0.29922,saves if memory energy per bit is above,0.147
+2.50,smallest meeting clock,bitcos_stream5_directiso,z0.70,0.6993,+36.862,-0.29922,saves if memory energy per bit is above,0.123
+2.50,smallest meeting clock,bitcos_stream5_fed,z0.70,0.6993,+95.439,-0.29922,saves if memory energy per bit is above,0.319

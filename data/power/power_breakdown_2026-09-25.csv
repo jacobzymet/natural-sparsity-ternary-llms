@@ -1,0 +1,92 @@
+engine,workload,zero_density,block,description,power_mw,energy_per_position_fj,share_pct
+bitcos_stream5_direct,bitnet,0.4387,top,"sign alignment, zero masking, accumulator adder and row control",0.27297,136.483,35.77
+bitcos_stream5_direct,bitnet,0.4387,presence_cursor,presence bit cursor,0.04031,20.157,5.28
+bitcos_stream5_direct,bitnet,0.4387,reduce,five-input adder tree,0.30445,152.227,39.90
+bitcos_stream5_direct,bitnet,0.4387,registers,all flip-flops,0.14530,72.652,19.04
+bitcos_stream5_direct,z0.20,0.1991,top,"sign alignment, zero masking, accumulator adder and row control",0.29437,147.185,35.84
+bitcos_stream5_direct,z0.20,0.1991,presence_cursor,presence bit cursor,0.03160,15.800,3.85
+bitcos_stream5_direct,z0.20,0.1991,reduce,five-input adder tree,0.34870,174.350,42.45
+bitcos_stream5_direct,z0.20,0.1991,registers,all flip-flops,0.14671,73.356,17.86
+bitcos_stream5_direct,z0.30,0.2995,top,"sign alignment, zero masking, accumulator adder and row control",0.29304,146.522,35.95
+bitcos_stream5_direct,z0.30,0.2995,presence_cursor,presence bit cursor,0.03797,18.983,4.66
+bitcos_stream5_direct,z0.30,0.2995,reduce,five-input adder tree,0.33771,168.856,41.43
+bitcos_stream5_direct,z0.30,0.2995,registers,all flip-flops,0.14648,73.239,17.97
+bitcos_stream5_direct,z0.4221,0.4225,top,"sign alignment, zero masking, accumulator adder and row control",0.28594,142.970,35.82
+bitcos_stream5_direct,z0.4221,0.4225,presence_cursor,presence bit cursor,0.04230,21.152,5.30
+bitcos_stream5_direct,z0.4221,0.4225,reduce,five-input adder tree,0.31935,159.677,40.01
+bitcos_stream5_direct,z0.4221,0.4225,registers,all flip-flops,0.15059,75.297,18.87
+bitcos_stream5_direct,z0.50,0.5004,top,"sign alignment, zero masking, accumulator adder and row control",0.27720,138.602,35.86
+bitcos_stream5_direct,z0.50,0.5004,presence_cursor,presence bit cursor,0.04300,21.502,5.56
+bitcos_stream5_direct,z0.50,0.5004,reduce,five-input adder tree,0.30397,151.985,39.33
+bitcos_stream5_direct,z0.50,0.5004,registers,all flip-flops,0.14876,74.379,19.25
+bitcos_stream5_direct,z0.60,0.6006,top,"sign alignment, zero masking, accumulator adder and row control",0.26017,130.086,35.90
+bitcos_stream5_direct,z0.60,0.6006,presence_cursor,presence bit cursor,0.04162,20.810,5.74
+bitcos_stream5_direct,z0.60,0.6006,reduce,five-input adder tree,0.27885,139.427,38.48
+bitcos_stream5_direct,z0.60,0.6006,registers,all flip-flops,0.14399,71.997,19.87
+bitcos_stream5_direct,z0.70,0.6993,top,"sign alignment, zero masking, accumulator adder and row control",0.23459,117.293,35.78
+bitcos_stream5_direct,z0.70,0.6993,presence_cursor,presence bit cursor,0.03790,18.948,5.78
+bitcos_stream5_direct,z0.70,0.6993,reduce,five-input adder tree,0.24531,122.657,37.41
+bitcos_stream5_direct,z0.70,0.6993,registers,all flip-flops,0.13788,68.941,21.03
+bitcos_stream5_directiso,bitnet,0.4387,top,"sign alignment, zero masking, accumulator adder and row control",0.27163,135.815,35.77
+bitcos_stream5_directiso,bitnet,0.4387,presence_cursor,presence bit cursor,0.03814,19.071,5.02
+bitcos_stream5_directiso,bitnet,0.4387,reduce,five-input adder tree,0.30394,151.971,40.02
+bitcos_stream5_directiso,bitnet,0.4387,registers,all flip-flops,0.14574,72.870,19.19
+bitcos_stream5_directiso,z0.20,0.1991,top,"sign alignment, zero masking, accumulator adder and row control",0.29658,148.290,36.08
+bitcos_stream5_directiso,z0.20,0.1991,presence_cursor,presence bit cursor,0.03011,15.056,3.66
+bitcos_stream5_directiso,z0.20,0.1991,reduce,five-input adder tree,0.34813,174.064,42.35
+bitcos_stream5_directiso,z0.20,0.1991,registers,all flip-flops,0.14726,73.630,17.91
+bitcos_stream5_directiso,z0.30,0.2995,top,"sign alignment, zero masking, accumulator adder and row control",0.29303,146.514,36.03
+bitcos_stream5_directiso,z0.30,0.2995,presence_cursor,presence bit cursor,0.03602,18.012,4.43
+bitcos_stream5_directiso,z0.30,0.2995,reduce,five-input adder tree,0.33714,168.568,41.46
+bitcos_stream5_directiso,z0.30,0.2995,registers,all flip-flops,0.14700,73.499,18.08
+bitcos_stream5_directiso,z0.4221,0.4225,top,"sign alignment, zero masking, accumulator adder and row control",0.28373,141.864,35.75
+bitcos_stream5_directiso,z0.4221,0.4225,presence_cursor,presence bit cursor,0.04002,20.012,5.04
+bitcos_stream5_directiso,z0.4221,0.4225,reduce,five-input adder tree,0.31886,159.430,40.18
+bitcos_stream5_directiso,z0.4221,0.4225,registers,all flip-flops,0.15104,75.522,19.03
+bitcos_stream5_directiso,z0.50,0.5004,top,"sign alignment, zero masking, accumulator adder and row control",0.27359,136.793,35.67
+bitcos_stream5_directiso,z0.50,0.5004,presence_cursor,presence bit cursor,0.04066,20.332,5.30
+bitcos_stream5_directiso,z0.50,0.5004,reduce,five-input adder tree,0.30352,151.759,39.58
+bitcos_stream5_directiso,z0.50,0.5004,registers,all flip-flops,0.14916,74.578,19.45
+bitcos_stream5_directiso,z0.60,0.6006,top,"sign alignment, zero masking, accumulator adder and row control",0.25550,127.750,35.60
+bitcos_stream5_directiso,z0.60,0.6006,presence_cursor,presence bit cursor,0.03937,19.683,5.49
+bitcos_stream5_directiso,z0.60,0.6006,reduce,five-input adder tree,0.27848,139.241,38.80
+bitcos_stream5_directiso,z0.60,0.6006,registers,all flip-flops,0.14432,72.158,20.11
+bitcos_stream5_directiso,z0.70,0.6993,top,"sign alignment, zero masking, accumulator adder and row control",0.23032,115.158,35.47
+bitcos_stream5_directiso,z0.70,0.6993,presence_cursor,presence bit cursor,0.03590,17.952,5.53
+bitcos_stream5_directiso,z0.70,0.6993,reduce,five-input adder tree,0.24500,122.500,37.73
+bitcos_stream5_directiso,z0.70,0.6993,registers,all flip-flops,0.13813,69.064,21.27
+tace_stream5,bitnet,0.4387,top,accumulator adder and row control,0.07069,35.343,9.58
+tace_stream5,bitnet,0.4387,decode,five-trit decoder lookup,0.10049,50.247,13.62
+tace_stream5,bitnet,0.4387,partial_dot,sign/zero selection of activations,0.16192,80.960,21.94
+tace_stream5,bitnet,0.4387,partial_dot/reduce,five-input adder tree,0.30537,152.684,41.38
+tace_stream5,bitnet,0.4387,registers,all flip-flops,0.09944,49.721,13.48
+tace_stream5,z0.20,0.1991,top,accumulator adder and row control,0.07567,37.833,9.29
+tace_stream5,z0.20,0.1991,decode,five-trit decoder lookup,0.10704,53.522,13.14
+tace_stream5,z0.20,0.1991,partial_dot,sign/zero selection of activations,0.18162,90.810,22.29
+tace_stream5,z0.20,0.1991,partial_dot/reduce,five-input adder tree,0.35005,175.023,42.96
+tace_stream5,z0.20,0.1991,registers,all flip-flops,0.10044,50.221,12.33
+tace_stream5,z0.30,0.2995,top,accumulator adder and row control,0.07521,37.604,9.41
+tace_stream5,z0.30,0.2995,decode,five-trit decoder lookup,0.10811,54.055,13.52
+tace_stream5,z0.30,0.2995,partial_dot,sign/zero selection of activations,0.17700,88.500,22.14
+tace_stream5,z0.30,0.2995,partial_dot/reduce,five-input adder tree,0.33888,169.440,42.39
+tace_stream5,z0.30,0.2995,registers,all flip-flops,0.10021,50.105,12.54
+tace_stream5,z0.4221,0.4225,top,accumulator adder and row control,0.07547,37.735,9.78
+tace_stream5,z0.4221,0.4225,decode,five-trit decoder lookup,0.10530,52.651,13.64
+tace_stream5,z0.4221,0.4225,partial_dot,sign/zero selection of activations,0.16677,83.385,21.60
+tace_stream5,z0.4221,0.4225,partial_dot/reduce,five-input adder tree,0.32043,160.213,41.51
+tace_stream5,z0.4221,0.4225,registers,all flip-flops,0.10403,52.016,13.48
+tace_stream5,z0.50,0.5004,top,accumulator adder and row control,0.07445,37.223,10.05
+tace_stream5,z0.50,0.5004,decode,five-trit decoder lookup,0.10075,50.373,13.60
+tace_stream5,z0.50,0.5004,partial_dot,sign/zero selection of activations,0.15813,79.066,21.35
+tace_stream5,z0.50,0.5004,partial_dot/reduce,five-input adder tree,0.30497,152.484,41.18
+tace_stream5,z0.50,0.5004,registers,all flip-flops,0.10228,51.141,13.81
+tace_stream5,z0.60,0.6006,top,accumulator adder and row control,0.07262,36.310,10.58
+tace_stream5,z0.60,0.6006,decode,five-trit decoder lookup,0.09211,46.053,13.42
+tace_stream5,z0.60,0.6006,partial_dot,sign/zero selection of activations,0.14405,72.026,20.99
+tace_stream5,z0.60,0.6006,partial_dot/reduce,five-input adder tree,0.27967,139.835,40.74
+tace_stream5,z0.60,0.6006,registers,all flip-flops,0.09797,48.985,14.27
+tace_stream5,z0.70,0.6993,top,accumulator adder and row control,0.06880,34.399,11.17
+tace_stream5,z0.70,0.6993,decode,five-trit decoder lookup,0.08017,40.084,13.02
+tace_stream5,z0.70,0.6993,partial_dot,sign/zero selection of activations,0.12748,63.741,20.71
+tace_stream5,z0.70,0.6993,partial_dot/reduce,five-input adder tree,0.24603,123.017,39.96
+tace_stream5,z0.70,0.6993,registers,all flip-flops,0.09321,46.603,15.14

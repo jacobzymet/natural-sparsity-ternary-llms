@@ -1,0 +1,30 @@
+{
+  "source": "microsoft/bitnet-b1.58-2B-4T model.safetensors",
+  "workflow_run": 36073569856,
+  "target_tensor_count": 210,
+  "weights": 2084044800,
+  "zeros": 879693294,
+  "nonzeros": 1204351506,
+  "zero_density": 0.4221086293346477,
+  "representation_bytes": {
+    "dense2_row_aligned": 521011200,
+    "five_trit_128block": 423321600,
+    "bitcos_tensor_continuous": 411049631,
+    "bitcos_row_aligned": 411339717,
+    "bitcos_tensor_continuous_plus_rowptr32": 413784551
+  },
+  "ratios_vs_five_trit": {
+    "dense2": 1.2307692307692308,
+    "bitcos_tensor_continuous": 0.9710102933561623,
+    "bitcos_row_aligned": 0.9716955548689223,
+    "bitcos_continuous_plus_rowptr32": 0.9774709133670476
+  },
+  "block4_zero_histogram": {
+    "complete_blocks": 521011200,
+    "zero_count_0": 67182607,
+    "zero_count_1": 170420643,
+    "zero_count_2": 171217508,
+    "zero_count_3": 81924133,
+    "zero_count_4": 30266309
+  }
+}

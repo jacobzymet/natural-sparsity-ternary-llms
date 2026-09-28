@@ -1,0 +1,141 @@
+clock_period_ns,netlists,workload,zero_density,engine,five_trit_area,engine_area,five_trit_energy_per_position_fj,engine_energy_per_position_fj,energy_vs_five_trit_pct,dynamic_energy_vs_five_trit_pct,weight_bytes_vs_five_trit_pct,five_trit_bits_per_weight,engine_bits_per_weight
+2.50,default flow,bitnet,0.4387,bitcos_stream5_bank_fed,1285.312,1386.658,296.163,302.290,+2.07,+2.09,-2.41,1.60000,1.56146
+2.50,default flow,bitnet,0.4387,bitcos_stream5_bank_fed+repack,1285.312,1631.378,296.163,345.272,+16.58,+16.52,-2.41,1.60000,1.56146
+2.50,default flow,bitnet,0.4387,bitcos_stream5_direct,1121.190,1093.792,273.713,288.181,+5.29,+5.80,-2.41,1.60000,1.56146
+2.50,default flow,bitnet,0.4387,bitcos_stream5_directiso,1121.190,1088.738,273.713,282.599,+3.25,+3.70,-2.41,1.60000,1.56146
+2.50,default flow,bitnet,0.4387,bitcos_stream5_fed,1285.312,1545.726,296.163,366.788,+23.85,+24.39,-2.41,1.60000,1.56146
+2.50,default flow,z0.20,0.1991,bitcos_stream5_bank_fed,1285.312,1386.658,321.481,322.260,+0.24,+0.16,+12.56,1.60000,1.80091
+2.50,default flow,z0.20,0.1991,bitcos_stream5_bank_fed+repack,1285.312,1631.378,321.481,371.061,+15.42,+15.29,+12.56,1.60000,1.80091
+2.50,default flow,z0.20,0.1991,bitcos_stream5_direct,1121.190,1093.792,298.703,300.098,+0.47,+0.72,+12.56,1.60000,1.80091
+2.50,default flow,z0.20,0.1991,bitcos_stream5_directiso,1121.190,1088.738,298.703,296.125,-0.86,-0.67,+12.56,1.60000,1.80091
+2.50,default flow,z0.20,0.1991,bitcos_stream5_fed,1285.312,1545.726,321.481,382.677,+19.04,+19.29,+12.56,1.60000,1.80091
+2.50,default flow,z0.30,0.2995,bitcos_stream5_bank_fed,1285.312,1386.658,316.230,318.829,+0.82,+0.78,+6.28,1.60000,1.70052
+2.50,default flow,z0.30,0.2995,bitcos_stream5_bank_fed+repack,1285.312,1631.378,316.230,364.534,+15.27,+15.15,+6.28,1.60000,1.70052
+2.50,default flow,z0.30,0.2995,bitcos_stream5_direct,1121.190,1093.792,293.786,300.997,+2.45,+2.81,+6.28,1.60000,1.70052
+2.50,default flow,z0.30,0.2995,bitcos_stream5_directiso,1121.190,1088.738,293.786,296.274,+0.85,+1.14,+6.28,1.60000,1.70052
+2.50,default flow,z0.30,0.2995,bitcos_stream5_fed,1285.312,1545.726,316.230,382.612,+20.99,+21.36,+6.28,1.60000,1.70052
+2.50,default flow,z0.4221,0.4225,bitcos_stream5_bank_fed,1285.312,1386.658,308.428,313.816,+1.75,+1.76,-1.41,1.60000,1.57747
+2.50,default flow,z0.4221,0.4225,bitcos_stream5_bank_fed+repack,1285.312,1631.378,308.428,357.365,+15.87,+15.79,-1.41,1.60000,1.57747
+2.50,default flow,z0.4221,0.4225,bitcos_stream5_direct,1121.190,1093.792,286.280,299.960,+4.78,+5.26,-1.41,1.60000,1.57747
+2.50,default flow,z0.4221,0.4225,bitcos_stream5_directiso,1121.190,1088.738,286.280,294.406,+2.84,+3.25,-1.41,1.60000,1.57747
+2.50,default flow,z0.4221,0.4225,bitcos_stream5_fed,1285.312,1545.726,308.428,379.697,+23.11,+23.60,-1.41,1.60000,1.57747
+2.50,default flow,z0.50,0.5004,bitcos_stream5_bank_fed,1285.312,1386.658,297.955,305.807,+2.64,+2.70,-6.27,1.60000,1.49961
+2.50,default flow,z0.50,0.5004,bitcos_stream5_bank_fed+repack,1285.312,1631.378,297.955,348.960,+17.12,+17.10,-6.27,1.60000,1.49961
+2.50,default flow,z0.50,0.5004,bitcos_stream5_direct,1121.190,1093.792,275.847,293.759,+6.49,+7.08,-6.27,1.60000,1.49961
+2.50,default flow,z0.50,0.5004,bitcos_stream5_directiso,1121.190,1088.738,275.847,287.488,+4.22,+4.72,-6.27,1.60000,1.49961
+2.50,default flow,z0.50,0.5004,bitcos_stream5_fed,1285.312,1545.726,297.955,371.813,+24.79,+25.40,-6.27,1.60000,1.49961
+2.50,default flow,z0.60,0.6006,bitcos_stream5_bank_fed,1285.312,1386.658,279.766,290.959,+4.00,+4.14,-12.53,1.60000,1.39948
+2.50,default flow,z0.60,0.6006,bitcos_stream5_bank_fed+repack,1285.312,1631.378,279.766,334.758,+19.66,+19.78,-12.53,1.60000,1.39948
+2.50,default flow,z0.60,0.6006,bitcos_stream5_direct,1121.190,1093.792,257.592,280.010,+8.70,+9.45,-12.53,1.60000,1.39948
+2.50,default flow,z0.60,0.6006,bitcos_stream5_directiso,1121.190,1088.738,257.592,273.014,+5.99,+6.63,-12.53,1.60000,1.39948
+2.50,default flow,z0.60,0.6006,bitcos_stream5_fed,1285.312,1545.726,279.766,355.737,+27.16,+27.93,-12.53,1.60000,1.39948
+2.50,default flow,z0.70,0.6993,bitcos_stream5_bank_fed,1285.312,1386.658,256.255,270.364,+5.51,+5.74,-18.70,1.60000,1.30078
+2.50,default flow,z0.70,0.6993,bitcos_stream5_bank_fed+repack,1285.312,1631.378,256.255,316.047,+23.33,+23.68,-18.70,1.60000,1.30078
+2.50,default flow,z0.70,0.6993,bitcos_stream5_direct,1121.190,1093.792,233.879,259.146,+10.80,+11.73,-18.70,1.60000,1.30078
+2.50,default flow,z0.70,0.6993,bitcos_stream5_directiso,1121.190,1088.738,233.879,252.030,+7.76,+8.57,-18.70,1.60000,1.30078
+2.50,default flow,z0.70,0.6993,bitcos_stream5_fed,1285.312,1545.726,256.255,332.541,+29.77,+30.78,-18.70,1.60000,1.30078
+1.60,smallest meeting clock,bitnet,0.4387,bitcos_stream5_bank_fed,1373.358,1448.636,327.976,329.006,+0.31,+0.41,-2.41,1.60000,1.56146
+1.60,smallest meeting clock,bitnet,0.4387,bitcos_stream5_bank_fed+repack,1373.358,1693.356,327.976,371.168,+13.17,+13.24,-2.41,1.60000,1.56146
+1.60,smallest meeting clock,bitnet,0.4387,bitcos_stream5_direct,1217.748,1186.892,314.723,319.219,+1.43,+1.68,-2.41,1.60000,1.56146
+1.60,smallest meeting clock,bitnet,0.4387,bitcos_stream5_directiso,1217.748,1194.872,314.723,319.342,+1.47,+1.72,-2.41,1.60000,1.56146
+1.60,smallest meeting clock,bitnet,0.4387,bitcos_stream5_fed,1373.358,1624.994,327.976,399.705,+21.87,+22.29,-2.41,1.60000,1.56146
+1.60,smallest meeting clock,z0.20,0.1991,bitcos_stream5_bank_fed,1373.358,1448.636,358.140,350.460,-2.14,-2.15,+12.56,1.60000,1.80091
+1.60,smallest meeting clock,z0.20,0.1991,bitcos_stream5_bank_fed+repack,1373.358,1693.356,358.140,398.432,+11.25,+11.23,+12.56,1.60000,1.80091
+1.60,smallest meeting clock,z0.20,0.1991,bitcos_stream5_direct,1217.748,1186.892,346.120,335.625,-3.03,-2.95,+12.56,1.60000,1.80091
+1.60,smallest meeting clock,z0.20,0.1991,bitcos_stream5_directiso,1217.748,1194.872,346.120,338.427,-2.22,-2.13,+12.56,1.60000,1.80091
+1.60,smallest meeting clock,z0.20,0.1991,bitcos_stream5_fed,1373.358,1624.994,358.140,420.608,+17.44,+17.66,+12.56,1.60000,1.80091
+1.60,smallest meeting clock,z0.30,0.2995,bitcos_stream5_bank_fed,1373.358,1448.636,351.806,347.303,-1.28,-1.26,+6.28,1.60000,1.70052
+1.60,smallest meeting clock,z0.30,0.2995,bitcos_stream5_bank_fed+repack,1373.358,1693.356,351.806,392.182,+11.48,+11.47,+6.28,1.60000,1.70052
+1.60,smallest meeting clock,z0.30,0.2995,bitcos_stream5_direct,1217.748,1186.892,339.574,334.808,-1.40,-1.27,+6.28,1.60000,1.70052
+1.60,smallest meeting clock,z0.30,0.2995,bitcos_stream5_directiso,1217.748,1194.872,339.574,336.722,-0.84,-0.70,+6.28,1.60000,1.70052
+1.60,smallest meeting clock,z0.30,0.2995,bitcos_stream5_fed,1373.358,1624.994,351.806,418.384,+18.92,+19.20,+6.28,1.60000,1.70052
+1.60,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_bank_fed,1373.358,1448.636,341.486,341.563,+0.02,+0.09,-1.41,1.60000,1.57747
+1.60,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_bank_fed+repack,1373.358,1693.356,341.486,384.291,+12.54,+12.57,-1.41,1.60000,1.57747
+1.60,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_direct,1217.748,1186.892,328.936,332.048,+0.95,+1.16,-1.41,1.60000,1.57747
+1.60,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_directiso,1217.748,1194.872,328.936,332.233,+1.00,+1.22,-1.41,1.60000,1.57747
+1.60,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_fed,1373.358,1624.994,341.486,413.005,+20.94,+21.30,-1.41,1.60000,1.57747
+1.60,smallest meeting clock,z0.50,0.5004,bitcos_stream5_bank_fed,1373.358,1448.636,328.992,332.548,+1.08,+1.20,-6.27,1.60000,1.49961
+1.60,smallest meeting clock,z0.50,0.5004,bitcos_stream5_bank_fed+repack,1373.358,1693.356,328.992,374.884,+13.95,+14.04,-6.27,1.60000,1.49961
+1.60,smallest meeting clock,z0.50,0.5004,bitcos_stream5_direct,1217.748,1186.892,315.859,324.650,+2.78,+3.07,-6.27,1.60000,1.49961
+1.60,smallest meeting clock,z0.50,0.5004,bitcos_stream5_directiso,1217.748,1194.872,315.859,323.285,+2.35,+2.63,-6.27,1.60000,1.49961
+1.60,smallest meeting clock,z0.50,0.5004,bitcos_stream5_fed,1373.358,1624.994,328.992,403.707,+22.71,+23.15,-6.27,1.60000,1.49961
+1.60,smallest meeting clock,z0.60,0.6006,bitcos_stream5_bank_fed,1373.358,1448.636,307.131,315.565,+2.75,+2.94,-12.53,1.60000,1.39948
+1.60,smallest meeting clock,z0.60,0.6006,bitcos_stream5_bank_fed+repack,1373.358,1693.356,307.131,358.553,+16.74,+16.96,-12.53,1.60000,1.39948
+1.60,smallest meeting clock,z0.60,0.6006,bitcos_stream5_direct,1217.748,1186.892,293.128,309.343,+5.53,+5.95,-12.53,1.60000,1.39948
+1.60,smallest meeting clock,z0.60,0.6006,bitcos_stream5_directiso,1217.748,1194.872,293.128,305.784,+4.32,+4.70,-12.53,1.60000,1.39948
+1.60,smallest meeting clock,z0.60,0.6006,bitcos_stream5_fed,1373.358,1624.994,307.131,385.884,+25.64,+26.23,-12.53,1.60000,1.39948
+1.60,smallest meeting clock,z0.70,0.6993,bitcos_stream5_bank_fed,1373.358,1448.636,279.010,291.966,+4.64,+4.94,-18.70,1.60000,1.30078
+1.60,smallest meeting clock,z0.70,0.6993,bitcos_stream5_bank_fed+repack,1373.358,1693.356,279.010,336.846,+20.73,+21.14,-18.70,1.60000,1.30078
+1.60,smallest meeting clock,z0.70,0.6993,bitcos_stream5_direct,1217.748,1186.892,264.124,286.596,+8.51,+9.09,-18.70,1.60000,1.30078
+1.60,smallest meeting clock,z0.70,0.6993,bitcos_stream5_directiso,1217.748,1194.872,264.124,281.203,+6.47,+6.99,-18.70,1.60000,1.30078
+1.60,smallest meeting clock,z0.70,0.6993,bitcos_stream5_fed,1373.358,1624.994,279.010,360.748,+29.30,+30.11,-18.70,1.60000,1.30078
+2.00,smallest meeting clock,bitnet,0.4387,bitcos_stream5_bank_fed,1221.206,1412.194,277.569,305.882,+10.20,+10.46,-2.41,1.60000,1.56146
+2.00,smallest meeting clock,bitnet,0.4387,bitcos_stream5_bank_fed+repack,1221.206,1656.914,277.569,348.409,+25.52,+25.75,-2.41,1.60000,1.56146
+2.00,smallest meeting clock,bitnet,0.4387,bitcos_stream5_direct,1044.050,1099.644,253.007,288.529,+14.04,+14.43,-2.41,1.60000,1.56146
+2.00,smallest meeting clock,bitnet,0.4387,bitcos_stream5_directiso,1044.050,1095.122,253.007,285.186,+12.72,+13.13,-2.41,1.60000,1.56146
+2.00,smallest meeting clock,bitnet,0.4387,bitcos_stream5_fed,1221.206,1573.656,277.569,366.366,+31.99,+32.70,-2.41,1.60000,1.56146
+2.00,smallest meeting clock,z0.20,0.1991,bitcos_stream5_bank_fed,1221.206,1412.194,300.041,323.833,+7.93,+8.06,+12.56,1.60000,1.80091
+2.00,smallest meeting clock,z0.20,0.1991,bitcos_stream5_bank_fed+repack,1221.206,1656.914,300.041,372.174,+24.04,+24.17,+12.56,1.60000,1.80091
+2.00,smallest meeting clock,z0.20,0.1991,bitcos_stream5_direct,1044.050,1099.644,275.001,302.107,+9.86,+10.04,+12.56,1.60000,1.80091
+2.00,smallest meeting clock,z0.20,0.1991,bitcos_stream5_directiso,1044.050,1095.122,275.001,300.382,+9.23,+9.44,+12.56,1.60000,1.80091
+2.00,smallest meeting clock,z0.20,0.1991,bitcos_stream5_fed,1221.206,1573.656,300.041,381.927,+27.29,+27.73,+12.56,1.60000,1.80091
+2.00,smallest meeting clock,z0.30,0.2995,bitcos_stream5_bank_fed,1221.206,1412.194,295.771,321.609,+8.74,+8.91,+6.28,1.60000,1.70052
+2.00,smallest meeting clock,z0.30,0.2995,bitcos_stream5_bank_fed+repack,1221.206,1656.914,295.771,366.855,+24.03,+24.18,+6.28,1.60000,1.70052
+2.00,smallest meeting clock,z0.30,0.2995,bitcos_stream5_direct,1044.050,1099.644,270.831,301.874,+11.46,+11.71,+6.28,1.60000,1.70052
+2.00,smallest meeting clock,z0.30,0.2995,bitcos_stream5_directiso,1044.050,1095.122,270.831,299.559,+10.61,+10.89,+6.28,1.60000,1.70052
+2.00,smallest meeting clock,z0.30,0.2995,bitcos_stream5_fed,1221.206,1573.656,295.771,381.835,+29.10,+29.63,+6.28,1.60000,1.70052
+2.00,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_bank_fed,1221.206,1412.194,289.181,317.332,+9.73,+9.97,-1.41,1.60000,1.57747
+2.00,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_bank_fed+repack,1221.206,1656.914,289.181,360.425,+24.64,+24.83,-1.41,1.60000,1.57747
+2.00,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_direct,1044.050,1099.644,264.380,300.199,+13.55,+13.89,-1.41,1.60000,1.57747
+2.00,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_directiso,1044.050,1095.122,264.380,296.860,+12.29,+12.65,-1.41,1.60000,1.57747
+2.00,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_fed,1221.206,1573.656,289.181,378.793,+30.99,+31.63,-1.41,1.60000,1.57747
+2.00,smallest meeting clock,z0.50,0.5004,bitcos_stream5_bank_fed,1221.206,1412.194,279.867,309.553,+10.61,+10.90,-6.27,1.60000,1.49961
+2.00,smallest meeting clock,z0.50,0.5004,bitcos_stream5_bank_fed+repack,1221.206,1656.914,279.867,352.252,+25.86,+26.12,-6.27,1.60000,1.49961
+2.00,smallest meeting clock,z0.50,0.5004,bitcos_stream5_direct,1044.050,1099.644,255.203,293.977,+15.19,+15.62,-6.27,1.60000,1.49961
+2.00,smallest meeting clock,z0.50,0.5004,bitcos_stream5_directiso,1044.050,1095.122,255.203,289.619,+13.49,+13.93,-6.27,1.60000,1.49961
+2.00,smallest meeting clock,z0.50,0.5004,bitcos_stream5_fed,1221.206,1573.656,279.867,370.999,+32.56,+33.31,-6.27,1.60000,1.49961
+2.00,smallest meeting clock,z0.60,0.6006,bitcos_stream5_bank_fed,1221.206,1412.194,263.266,294.451,+11.85,+12.22,-12.53,1.60000,1.39948
+2.00,smallest meeting clock,z0.60,0.6006,bitcos_stream5_bank_fed+repack,1221.206,1656.914,263.266,337.800,+28.31,+28.71,-12.53,1.60000,1.39948
+2.00,smallest meeting clock,z0.60,0.6006,bitcos_stream5_direct,1044.050,1099.644,238.808,280.601,+17.50,+18.06,-12.53,1.60000,1.39948
+2.00,smallest meeting clock,z0.60,0.6006,bitcos_stream5_directiso,1044.050,1095.122,238.808,274.904,+15.12,+15.68,-12.53,1.60000,1.39948
+2.00,smallest meeting clock,z0.60,0.6006,bitcos_stream5_fed,1221.206,1573.656,263.266,354.906,+34.81,+35.72,-12.53,1.60000,1.39948
+2.00,smallest meeting clock,z0.70,0.6993,bitcos_stream5_bank_fed,1221.206,1412.194,241.684,273.243,+13.06,+13.54,-18.70,1.60000,1.30078
+2.00,smallest meeting clock,z0.70,0.6993,bitcos_stream5_bank_fed+repack,1221.206,1656.914,241.684,318.480,+31.78,+32.40,-18.70,1.60000,1.30078
+2.00,smallest meeting clock,z0.70,0.6993,bitcos_stream5_direct,1044.050,1099.644,217.626,260.605,+19.75,+20.49,-18.70,1.60000,1.30078
+2.00,smallest meeting clock,z0.70,0.6993,bitcos_stream5_directiso,1044.050,1095.122,217.626,253.940,+16.69,+17.40,-18.70,1.60000,1.30078
+2.00,smallest meeting clock,z0.70,0.6993,bitcos_stream5_fed,1221.206,1573.656,241.684,331.746,+37.26,+38.40,-18.70,1.60000,1.30078
+2.50,smallest meeting clock,bitnet,0.4387,bitcos_stream5_bank_fed,1200.192,1386.658,271.074,302.290,+11.52,+11.80,-2.41,1.60000,1.56146
+2.50,smallest meeting clock,bitnet,0.4387,bitcos_stream5_bank_fed+repack,1200.192,1631.378,271.074,345.272,+27.37,+27.61,-2.41,1.60000,1.56146
+2.50,smallest meeting clock,bitnet,0.4387,bitcos_stream5_direct,1028.888,1093.792,249.092,288.181,+15.69,+16.36,-2.41,1.60000,1.56146
+2.50,smallest meeting clock,bitnet,0.4387,bitcos_stream5_directiso,1028.888,1088.738,249.092,282.599,+13.45,+14.04,-2.41,1.60000,1.56146
+2.50,smallest meeting clock,bitnet,0.4387,bitcos_stream5_fed,1200.192,1545.726,271.074,366.788,+35.31,+36.23,-2.41,1.60000,1.56146
+2.50,smallest meeting clock,z0.20,0.1991,bitcos_stream5_bank_fed,1200.192,1386.658,292.201,322.260,+10.29,+10.48,+12.56,1.60000,1.80091
+2.50,smallest meeting clock,z0.20,0.1991,bitcos_stream5_bank_fed+repack,1200.192,1631.378,292.201,371.061,+26.99,+27.17,+12.56,1.60000,1.80091
+2.50,smallest meeting clock,z0.20,0.1991,bitcos_stream5_direct,1028.888,1093.792,270.032,300.098,+11.13,+11.54,+12.56,1.60000,1.80091
+2.50,smallest meeting clock,z0.20,0.1991,bitcos_stream5_directiso,1028.888,1088.738,270.032,296.125,+9.66,+10.00,+12.56,1.60000,1.80091
+2.50,smallest meeting clock,z0.20,0.1991,bitcos_stream5_fed,1200.192,1545.726,292.201,382.677,+30.96,+31.58,+12.56,1.60000,1.80091
+2.50,smallest meeting clock,z0.30,0.2995,bitcos_stream5_bank_fed,1200.192,1386.658,287.872,318.829,+10.75,+10.99,+6.28,1.60000,1.70052
+2.50,smallest meeting clock,z0.30,0.2995,bitcos_stream5_bank_fed+repack,1200.192,1631.378,287.872,364.534,+26.63,+26.82,+6.28,1.60000,1.70052
+2.50,smallest meeting clock,z0.30,0.2995,bitcos_stream5_direct,1028.888,1093.792,265.922,300.997,+13.19,+13.70,+6.28,1.60000,1.70052
+2.50,smallest meeting clock,z0.30,0.2995,bitcos_stream5_directiso,1028.888,1088.738,265.922,296.274,+11.41,+11.86,+6.28,1.60000,1.70052
+2.50,smallest meeting clock,z0.30,0.2995,bitcos_stream5_fed,1200.192,1545.726,287.872,382.612,+32.91,+33.65,+6.28,1.60000,1.70052
+2.50,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_bank_fed,1200.192,1386.658,281.502,313.816,+11.48,+11.79,-1.41,1.60000,1.57747
+2.50,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_bank_fed+repack,1200.192,1631.378,281.502,357.365,+26.95,+27.19,-1.41,1.60000,1.57747
+2.50,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_direct,1028.888,1093.792,259.781,299.960,+15.47,+16.12,-1.41,1.60000,1.57747
+2.50,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_directiso,1028.888,1088.738,259.781,294.406,+13.33,+13.91,-1.41,1.60000,1.57747
+2.50,smallest meeting clock,z0.4221,0.4225,bitcos_stream5_fed,1200.192,1545.726,281.502,379.697,+34.88,+35.77,-1.41,1.60000,1.57747
+2.50,smallest meeting clock,z0.50,0.5004,bitcos_stream5_bank_fed,1200.192,1386.658,272.814,305.807,+12.09,+12.45,-6.27,1.60000,1.49961
+2.50,smallest meeting clock,z0.50,0.5004,bitcos_stream5_bank_fed+repack,1200.192,1631.378,272.814,348.960,+27.91,+28.23,-6.27,1.60000,1.49961
+2.50,smallest meeting clock,z0.50,0.5004,bitcos_stream5_direct,1028.888,1093.792,251.110,293.759,+16.98,+17.75,-6.27,1.60000,1.49961
+2.50,smallest meeting clock,z0.50,0.5004,bitcos_stream5_directiso,1028.888,1088.738,251.110,287.488,+14.49,+15.16,-6.27,1.60000,1.49961
+2.50,smallest meeting clock,z0.50,0.5004,bitcos_stream5_fed,1200.192,1545.726,272.814,371.813,+36.29,+37.31,-6.27,1.60000,1.49961
+2.50,smallest meeting clock,z0.60,0.6006,bitcos_stream5_bank_fed,1200.192,1386.658,257.179,290.959,+13.13,+13.59,-12.53,1.60000,1.39948
+2.50,smallest meeting clock,z0.60,0.6006,bitcos_stream5_bank_fed+repack,1200.192,1631.378,257.179,334.758,+30.17,+30.64,-12.53,1.60000,1.39948
+2.50,smallest meeting clock,z0.60,0.6006,bitcos_stream5_direct,1028.888,1093.792,235.397,280.010,+18.95,+19.88,-12.53,1.60000,1.39948
+2.50,smallest meeting clock,z0.60,0.6006,bitcos_stream5_directiso,1028.888,1088.738,235.397,273.014,+15.98,+16.80,-12.53,1.60000,1.39948
+2.50,smallest meeting clock,z0.60,0.6006,bitcos_stream5_fed,1200.192,1545.726,257.179,355.737,+38.32,+39.53,-12.53,1.60000,1.39948
+2.50,smallest meeting clock,z0.70,0.6993,bitcos_stream5_bank_fed,1200.192,1386.658,237.102,270.364,+14.03,+14.58,-18.70,1.60000,1.30078
+2.50,smallest meeting clock,z0.70,0.6993,bitcos_stream5_bank_fed+repack,1200.192,1631.378,237.102,316.047,+33.30,+34.02,-18.70,1.60000,1.30078
+2.50,smallest meeting clock,z0.70,0.6993,bitcos_stream5_direct,1028.888,1093.792,215.168,259.146,+20.44,+21.56,-18.70,1.60000,1.30078
+2.50,smallest meeting clock,z0.70,0.6993,bitcos_stream5_directiso,1028.888,1088.738,215.168,252.030,+17.13,+18.11,-18.70,1.60000,1.30078
+2.50,smallest meeting clock,z0.70,0.6993,bitcos_stream5_fed,1200.192,1545.726,237.102,332.541,+40.25,+41.71,-18.70,1.60000,1.30078

@@ -1,0 +1,485 @@
+{
+  "source": "data/timing/matched_timing_2026-09-25.csv",
+  "engines": {
+    "tace_stream5": {
+      "baseline": "tace_stream5",
+      "default_flow": {
+        "area": 1121.19,
+        "cells": 840,
+        "min_period_ns": 2.458926,
+        "limiting_class": "in2reg"
+      },
+      "smallest_area_any_recipe": 1028.888,
+      "fastest_by_input_delay": {
+        "0.00": {
+          "min_period_ns": 1.518671,
+          "fmax_mhz": 658.47,
+          "area_at_min_period": 1381.604,
+          "point": "map_sized:900"
+        },
+        "0.10": {
+          "min_period_ns": 1.618671,
+          "fmax_mhz": 617.79,
+          "area_at_min_period": 1381.604,
+          "point": "map_sized:900"
+        },
+        "0.20": {
+          "min_period_ns": 1.718671,
+          "fmax_mhz": 581.84,
+          "area_at_min_period": 1381.604,
+          "point": "map_sized:900"
+        },
+        "0.30": {
+          "min_period_ns": 1.818671,
+          "fmax_mhz": 549.85,
+          "area_at_min_period": 1381.604,
+          "point": "map_sized:900"
+        },
+        "0.00_out0.10": {
+          "min_period_ns": 1.518671,
+          "fmax_mhz": 658.47,
+          "area_at_min_period": 1381.604,
+          "point": "map_sized:900"
+        },
+        "0.10_out0.10": {
+          "min_period_ns": 1.618671,
+          "fmax_mhz": 617.79,
+          "area_at_min_period": 1381.604,
+          "point": "map_sized:900"
+        },
+        "0.20_out0.10": {
+          "min_period_ns": 1.718671,
+          "fmax_mhz": 581.84,
+          "area_at_min_period": 1381.604,
+          "point": "map_sized:900"
+        },
+        "0.30_out0.10": {
+          "min_period_ns": 1.818671,
+          "fmax_mhz": 549.85,
+          "area_at_min_period": 1381.604,
+          "point": "map_sized:900"
+        }
+      }
+    },
+    "tace_stream5_fed": {
+      "baseline": "tace_stream5_fed",
+      "default_flow": {
+        "area": 1285.312,
+        "cells": 935,
+        "min_period_ns": 2.403334,
+        "limiting_class": "in2reg"
+      },
+      "smallest_area_any_recipe": 1200.192,
+      "fastest_by_input_delay": {
+        "0.00": {
+          "min_period_ns": 1.484244,
+          "fmax_mhz": 673.74,
+          "area_at_min_period": 1563.016,
+          "point": "map_sized:900"
+        },
+        "0.10": {
+          "min_period_ns": 1.584244,
+          "fmax_mhz": 631.22,
+          "area_at_min_period": 1563.016,
+          "point": "map_sized:900"
+        },
+        "0.20": {
+          "min_period_ns": 1.684244,
+          "fmax_mhz": 593.74,
+          "area_at_min_period": 1563.016,
+          "point": "map_sized:900"
+        },
+        "0.30": {
+          "min_period_ns": 1.784244,
+          "fmax_mhz": 560.46,
+          "area_at_min_period": 1563.016,
+          "point": "map_sized:900"
+        },
+        "0.00_out0.10": {
+          "min_period_ns": 1.484244,
+          "fmax_mhz": 673.74,
+          "area_at_min_period": 1563.016,
+          "point": "map_sized:900"
+        },
+        "0.10_out0.10": {
+          "min_period_ns": 1.584244,
+          "fmax_mhz": 631.22,
+          "area_at_min_period": 1563.016,
+          "point": "map_sized:900"
+        },
+        "0.20_out0.10": {
+          "min_period_ns": 1.684244,
+          "fmax_mhz": 593.74,
+          "area_at_min_period": 1563.016,
+          "point": "map_sized:900"
+        },
+        "0.30_out0.10": {
+          "min_period_ns": 1.784244,
+          "fmax_mhz": 560.46,
+          "area_at_min_period": 1563.016,
+          "point": "map_sized:900"
+        }
+      }
+    },
+    "bitcos_stream5_bank_fed": {
+      "baseline": "tace_stream5_fed",
+      "default_flow": {
+        "area": 1386.658,
+        "cells": 871,
+        "min_period_ns": 2.060007,
+        "limiting_class": "reg2reg"
+      },
+      "smallest_area_any_recipe": 1386.658,
+      "fastest_by_input_delay": {
+        "0.00": {
+          "min_period_ns": 1.271527,
+          "fmax_mhz": 786.46,
+          "area_at_min_period": 1776.88,
+          "point": "map_sized:900"
+        },
+        "0.10": {
+          "min_period_ns": 1.288857,
+          "fmax_mhz": 775.88,
+          "area_at_min_period": 1776.88,
+          "point": "map_sized:900"
+        },
+        "0.20": {
+          "min_period_ns": 1.388857,
+          "fmax_mhz": 720.02,
+          "area_at_min_period": 1776.88,
+          "point": "map_sized:900"
+        },
+        "0.30": {
+          "min_period_ns": 1.488857,
+          "fmax_mhz": 671.66,
+          "area_at_min_period": 1776.88,
+          "point": "map_sized:900"
+        },
+        "0.00_out0.10": {
+          "min_period_ns": 1.271527,
+          "fmax_mhz": 786.46,
+          "area_at_min_period": 1776.88,
+          "point": "map_sized:900"
+        },
+        "0.10_out0.10": {
+          "min_period_ns": 1.288857,
+          "fmax_mhz": 775.88,
+          "area_at_min_period": 1776.88,
+          "point": "map_sized:900"
+        },
+        "0.20_out0.10": {
+          "min_period_ns": 1.388857,
+          "fmax_mhz": 720.02,
+          "area_at_min_period": 1776.88,
+          "point": "map_sized:900"
+        },
+        "0.30_out0.10": {
+          "min_period_ns": 1.488857,
+          "fmax_mhz": 671.66,
+          "area_at_min_period": 1776.88,
+          "point": "map_sized:900"
+        }
+      }
+    },
+    "bitcos_stream5_bytecursor": {
+      "baseline": "tace_stream5",
+      "default_flow": {
+        "area": 1019.312,
+        "cells": 691,
+        "min_period_ns": 2.055519,
+        "limiting_class": "reg2reg"
+      },
+      "smallest_area_any_recipe": 1019.312,
+      "fastest_by_input_delay": {
+        "0.00": {
+          "min_period_ns": 1.271525,
+          "fmax_mhz": 786.46,
+          "area_at_min_period": 1397.83,
+          "point": "map_sized:900"
+        },
+        "0.10": {
+          "min_period_ns": 1.287087,
+          "fmax_mhz": 776.95,
+          "area_at_min_period": 1397.83,
+          "point": "map_sized:900"
+        },
+        "0.20": {
+          "min_period_ns": 1.387087,
+          "fmax_mhz": 720.94,
+          "area_at_min_period": 1397.83,
+          "point": "map_sized:900"
+        },
+        "0.30": {
+          "min_period_ns": 1.487087,
+          "fmax_mhz": 672.46,
+          "area_at_min_period": 1397.83,
+          "point": "map_sized:900"
+        },
+        "0.00_out0.10": {
+          "min_period_ns": 1.271525,
+          "fmax_mhz": 786.46,
+          "area_at_min_period": 1397.83,
+          "point": "map_sized:900"
+        },
+        "0.10_out0.10": {
+          "min_period_ns": 1.287087,
+          "fmax_mhz": 776.95,
+          "area_at_min_period": 1397.83,
+          "point": "map_sized:900"
+        },
+        "0.20_out0.10": {
+          "min_period_ns": 1.387087,
+          "fmax_mhz": 720.94,
+          "area_at_min_period": 1397.83,
+          "point": "map_sized:900"
+        },
+        "0.30_out0.10": {
+          "min_period_ns": 1.487087,
+          "fmax_mhz": 672.46,
+          "area_at_min_period": 1397.83,
+          "point": "map_sized:900"
+        }
+      }
+    },
+    "bitcos_stream5_direct": {
+      "baseline": "tace_stream5",
+      "default_flow": {
+        "area": 1093.792,
+        "cells": 752,
+        "min_period_ns": 2.131234,
+        "limiting_class": "reg2reg"
+      },
+      "smallest_area_any_recipe": 1093.792,
+      "fastest_by_input_delay": {
+        "0.00": {
+          "min_period_ns": 1.344272,
+          "fmax_mhz": 743.9,
+          "area_at_min_period": 1403.15,
+          "point": "map_sized:1000"
+        },
+        "0.10": {
+          "min_period_ns": 1.344272,
+          "fmax_mhz": 743.9,
+          "area_at_min_period": 1403.15,
+          "point": "map_sized:1000"
+        },
+        "0.20": {
+          "min_period_ns": 1.434694,
+          "fmax_mhz": 697.01,
+          "area_at_min_period": 1403.15,
+          "point": "map_sized:900"
+        },
+        "0.30": {
+          "min_period_ns": 1.534694,
+          "fmax_mhz": 651.6,
+          "area_at_min_period": 1403.15,
+          "point": "map_sized:900"
+        },
+        "0.00_out0.10": {
+          "min_period_ns": 1.344272,
+          "fmax_mhz": 743.9,
+          "area_at_min_period": 1403.15,
+          "point": "map_sized:1000"
+        },
+        "0.10_out0.10": {
+          "min_period_ns": 1.344272,
+          "fmax_mhz": 743.9,
+          "area_at_min_period": 1403.15,
+          "point": "map_sized:1000"
+        },
+        "0.20_out0.10": {
+          "min_period_ns": 1.434694,
+          "fmax_mhz": 697.01,
+          "area_at_min_period": 1403.15,
+          "point": "map_sized:900"
+        },
+        "0.30_out0.10": {
+          "min_period_ns": 1.534694,
+          "fmax_mhz": 651.6,
+          "area_at_min_period": 1403.15,
+          "point": "map_sized:900"
+        }
+      }
+    },
+    "bitcos_stream5_directiso": {
+      "baseline": "tace_stream5",
+      "default_flow": {
+        "area": 1088.738,
+        "cells": 748,
+        "min_period_ns": 2.172689,
+        "limiting_class": "reg2reg"
+      },
+      "smallest_area_any_recipe": 1088.738,
+      "fastest_by_input_delay": {
+        "0.00": {
+          "min_period_ns": 1.362518,
+          "fmax_mhz": 733.94,
+          "area_at_min_period": 1467.256,
+          "point": "map_sized:900"
+        },
+        "0.10": {
+          "min_period_ns": 1.362518,
+          "fmax_mhz": 733.94,
+          "area_at_min_period": 1467.256,
+          "point": "map_sized:900"
+        },
+        "0.20": {
+          "min_period_ns": 1.43594,
+          "fmax_mhz": 696.41,
+          "area_at_min_period": 1467.256,
+          "point": "map_sized:900"
+        },
+        "0.30": {
+          "min_period_ns": 1.53594,
+          "fmax_mhz": 651.07,
+          "area_at_min_period": 1467.256,
+          "point": "map_sized:900"
+        },
+        "0.00_out0.10": {
+          "min_period_ns": 1.362518,
+          "fmax_mhz": 733.94,
+          "area_at_min_period": 1467.256,
+          "point": "map_sized:900"
+        },
+        "0.10_out0.10": {
+          "min_period_ns": 1.362518,
+          "fmax_mhz": 733.94,
+          "area_at_min_period": 1467.256,
+          "point": "map_sized:900"
+        },
+        "0.20_out0.10": {
+          "min_period_ns": 1.43594,
+          "fmax_mhz": 696.41,
+          "area_at_min_period": 1467.256,
+          "point": "map_sized:900"
+        },
+        "0.30_out0.10": {
+          "min_period_ns": 1.53594,
+          "fmax_mhz": 651.07,
+          "area_at_min_period": 1467.256,
+          "point": "map_sized:900"
+        }
+      }
+    },
+    "bitcos_stream5_fed": {
+      "baseline": "tace_stream5_fed",
+      "default_flow": {
+        "area": 1545.726,
+        "cells": 966,
+        "min_period_ns": 2.182567,
+        "limiting_class": "reg2reg"
+      },
+      "smallest_area_any_recipe": 1545.726,
+      "fastest_by_input_delay": {
+        "0.00": {
+          "min_period_ns": 1.352293,
+          "fmax_mhz": 739.48,
+          "area_at_min_period": 1895.516,
+          "point": "map_sized:900"
+        },
+        "0.10": {
+          "min_period_ns": 1.352293,
+          "fmax_mhz": 739.48,
+          "area_at_min_period": 1895.516,
+          "point": "map_sized:900"
+        },
+        "0.20": {
+          "min_period_ns": 1.432001,
+          "fmax_mhz": 698.32,
+          "area_at_min_period": 1895.516,
+          "point": "map_sized:900"
+        },
+        "0.30": {
+          "min_period_ns": 1.532001,
+          "fmax_mhz": 652.74,
+          "area_at_min_period": 1895.516,
+          "point": "map_sized:900"
+        },
+        "0.00_out0.10": {
+          "min_period_ns": 1.352293,
+          "fmax_mhz": 739.48,
+          "area_at_min_period": 1895.516,
+          "point": "map_sized:900"
+        },
+        "0.10_out0.10": {
+          "min_period_ns": 1.352293,
+          "fmax_mhz": 739.48,
+          "area_at_min_period": 1895.516,
+          "point": "map_sized:900"
+        },
+        "0.20_out0.10": {
+          "min_period_ns": 1.432001,
+          "fmax_mhz": 698.32,
+          "area_at_min_period": 1895.516,
+          "point": "map_sized:900"
+        },
+        "0.30_out0.10": {
+          "min_period_ns": 1.532001,
+          "fmax_mhz": 652.74,
+          "area_at_min_period": 1895.516,
+          "point": "map_sized:900"
+        }
+      }
+    },
+    "bitcos_stream5_fullfront": {
+      "baseline": "tace_stream5",
+      "default_flow": {
+        "area": 1089.802,
+        "cells": 747,
+        "min_period_ns": 2.184985,
+        "limiting_class": "reg2reg"
+      },
+      "smallest_area_any_recipe": 1089.802,
+      "fastest_by_input_delay": {
+        "0.00": {
+          "min_period_ns": 1.329004,
+          "fmax_mhz": 752.44,
+          "area_at_min_period": 1491.728,
+          "point": "map_sized:900"
+        },
+        "0.10": {
+          "min_period_ns": 1.329004,
+          "fmax_mhz": 752.44,
+          "area_at_min_period": 1491.728,
+          "point": "map_sized:900"
+        },
+        "0.20": {
+          "min_period_ns": 1.413825,
+          "fmax_mhz": 707.3,
+          "area_at_min_period": 1491.728,
+          "point": "map_sized:900"
+        },
+        "0.30": {
+          "min_period_ns": 1.513825,
+          "fmax_mhz": 660.58,
+          "area_at_min_period": 1491.728,
+          "point": "map_sized:900"
+        },
+        "0.00_out0.10": {
+          "min_period_ns": 1.329004,
+          "fmax_mhz": 752.44,
+          "area_at_min_period": 1491.728,
+          "point": "map_sized:900"
+        },
+        "0.10_out0.10": {
+          "min_period_ns": 1.329004,
+          "fmax_mhz": 752.44,
+          "area_at_min_period": 1491.728,
+          "point": "map_sized:900"
+        },
+        "0.20_out0.10": {
+          "min_period_ns": 1.413825,
+          "fmax_mhz": 707.3,
+          "area_at_min_period": 1491.728,
+          "point": "map_sized:900"
+        },
+        "0.30_out0.10": {
+          "min_period_ns": 1.513825,
+          "fmax_mhz": 660.58,
+          "area_at_min_period": 1491.728,
+          "point": "map_sized:900"
+        }
+      }
+    }
+  }
+}

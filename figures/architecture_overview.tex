@@ -1,0 +1,57 @@
+\begin{tikzpicture}[
+  font=\small,
+  box/.style={draw, rounded corners=1.2pt, minimum height=11mm, align=center, inner sep=3pt},
+  src/.style={draw, minimum height=11mm, align=center, inner sep=3pt},
+  arr/.style={-{Latex[length=1.8mm,width=1.2mm]}, line width=0.55pt},
+  note/.style={font=\scriptsize, align=center},
+  head/.style={font=\bfseries\small, anchor=west}
+]
+
+% Global scope note
+\node[note, anchor=west] at (0,1.45)
+  {Each accepted cycle processes five weight positions with the same signed 8-bit activations; row accumulation is 24-bit.};
+
+% Five-trit baseline
+\node[head] at (0,0.78) {Five-trit baseline};
+\node[src, minimum width=24mm] (ftin) at (0,0) {Packed byte\\\scriptsize 5 ternary weights};
+\node[box, minimum width=31mm] (ftdec) at (3.55,0) {T-ACE-style decoder\\\scriptsize $00=0,\;01=+1,\;10=-1$};
+\node[box, minimum width=31mm] (ftcontrib) at (7.20,0) {Five contributions\\$0,\ +a_i,\ -a_i$};
+\node[box, minimum width=25mm] (fttree) at (10.50,0) {5-input\\adder tree};
+\node[box, minimum width=27mm] (ftacc) at (13.55,0) {24-bit row\\accumulator};
+
+\draw[arr] (ftin) -- (ftdec);
+\draw[arr] (ftdec) -- (ftcontrib);
+\draw[arr] (ftcontrib) -- (fttree);
+\draw[arr] (fttree) -- (ftacc);
+
+\node[note, anchor=north, text width=60mm] at (5.35,-0.77)
+  {A zero code produces a zero contribution before the reduction tree.};
+
+% Bitmap/sign direct datapath
+\node[head] at (0,-2.45) {Bitmap/sign direct datapath};
+\node[src, minimum width=25mm] (pres) at (0,-3.45) {Presence group\\\scriptsize 5 bits, one per weight};
+\node[src, minimum width=25mm] (sign) at (0,-4.85) {Sign window\\\scriptsize 5 bits; 0--5 consumed};
+\node[box, minimum width=32mm] (align) at (3.65,-4.15) {Prefix ranks +\\sign selection};
+\node[box, minimum width=31mm] (bscontrib) at (7.20,-4.15) {Five contributions\\$0,\ +a_i,\ -a_i$};
+\node[box, minimum width=25mm] (bstree) at (10.50,-4.15) {5-input\\adder tree};
+\node[box, minimum width=27mm] (bsacc) at (13.55,-4.15) {24-bit row\\accumulator};
+
+\draw[arr] (pres.east) -- ++(5mm,0) |- ($(align.west)+(0,2.6mm)$);
+\draw[arr] (sign.east) -- ++(5mm,0) |- ($(align.west)+(0,-2.6mm)$);
+\draw[arr] (align) -- (bscontrib);
+\draw[arr] (bscontrib) -- (bstree);
+\draw[arr] (bstree) -- (bsacc);
+
+\node[note, anchor=north, text width=73mm] at (5.50,-5.02)
+  {Presence selects zero/nonzero contributions; prefix counts select the corresponding compact sign bits.};
+
+% Matched arithmetic note
+\node[note, anchor=west, text width=31mm] at (15.15,-2.08)
+  {The reduction tree and row accumulator are structurally matched between the two engines.};
+\draw[line width=0.45pt] (14.55,0.00) -- (14.90,0.00) -- (14.90,-4.15) -- (14.55,-4.15);
+
+% Weight-feeding scope
+\node[note, anchor=north west, text width=150mm, align=left] at (0,-6.05)
+  {\textbf{Weight feeding (not drawn):} Architecture A extracts each presence group from current/next bytes of a byte-packed bitmap. Architecture B reads one 5-bit presence word per group. Both use current/next bytes of the compact sign stream with a 3-bit intra-byte offset. Address counters, current-byte registers, the bitmap feeders' one-cycle row prefill, memory macros, and Architecture B's streamed repack loader are omitted.};
+
+\end{tikzpicture}

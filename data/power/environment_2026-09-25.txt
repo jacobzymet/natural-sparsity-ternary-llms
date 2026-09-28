@@ -1,0 +1,13 @@
+date_utc 2026-09-25T03:55:18Z
+git_commit 454ced89a1fa3c7f5af04e3500ee21b8c6895473
+git_dirty no
+yosys Yosys 0.33 (git sha1 2584903a060)
+opensta 3.1.0
+iverilog Icarus Verilog version 12.0 (stable) ()
+liberty NangateOpenCellLibrary_typical.lib sha256 8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1
+rows_per_workload 24
+k 2560
+zero_density_sweep 0.20 0.30 0.4221 0.50 0.60 0.70
+bitnet_rows data/power/bitnet_rows_k2560_n24_seed1.npz sha256 03e678281bd8474a5cdde61ee5eff0d230b1434cb9b8415c681c3fe2ef38c397
+activity zero-delay gate-level simulation (Icarus Verilog), every cell pin annotated from VCD
+power OpenSTA report_power, Nangate45 typical, ideal clock, no wire parasitics

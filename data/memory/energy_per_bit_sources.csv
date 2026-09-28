@@ -1,0 +1,13 @@
+memory_id,memory,pj_per_bit,pj_per_bit_low,pj_per_bit_high,node,what_is_included,kind,source,location
+sram_8kb_45nm,on-chip SRAM 8 KB,0.156,,,45 nm,64-bit read (10 pJ per access),published estimate,"Horowitz, Computing's Energy Problem, ISSCC 2014, doi:10.1109/ISSCC.2014.6757323",Fig. 1.1.9
+sram_32kb_45nm,on-chip SRAM 32 KB,0.313,,,45 nm,64-bit read (20 pJ per access),published estimate,"Horowitz, ISSCC 2014",Fig. 1.1.9
+sram_1mb_45nm,on-chip SRAM 1 MB (single bank),1.563,,,45 nm,64-bit read (100 pJ per access),published estimate,"Horowitz, ISSCC 2014",Fig. 1.1.9
+sram_1mb_45nm_cacti,on-chip SRAM 1 MB,1.058,,,45 nm,"64-bit read, CACTI 7 itrs-hp scratchpad (67.7 pJ per access)",modeled,CACTI 7 (github.com/HewlettPackard/cacti),run 2026-09-25; input configuration not archived
+sram_32kb_7nm,on-chip SRAM 32 KB,0.133,,,7 nm,64-bit read (8.5 pJ per access),published estimate,"Jouppi et al., Ten Lessons from Three Generations Shaped Google's TPUv4i, ISCA 2021, doi:10.1109/ISCA52012.2021.00010",Table 2
+sram_1mb_7nm,on-chip SRAM 1 MB,0.219,,,7 nm,64-bit read (14 pJ per access),published estimate,"Jouppi et al., ISCA 2021",Table 2
+hbm2,HBM2,3.97,,,DRAM 28 nm model,"full access including ECC, per-access energy (no background or refresh)",published model,"O'Connor et al., Fine-Grained DRAM, MICRO 2017, doi:10.1145/3123939.3124545","p. 2; model in Section 4.2"
+hbm2_streamed,HBM2 streaming full 1 KB rows,3.59,,,DRAM 28 nm model,"derived: 909 pJ row activation / 8192 bits + 1.51 + 1.17 (on-die movement) + 0.80 (I/O) pJ/bit at 50% toggle",derived from published model,"O'Connor et al., MICRO 2017","Table 3; model in Section 4.2"
+lpddr4_package,LPDDR4 (four 8 Gb dies),12,11,13,DRAM 2y nm,"background, row, column, refresh, I/O and termination; DramDSE bars read by eye",published model,"H. Ha, Understanding and Improving the Energy Efficiency of DRAM, Stanford PhD thesis, 2018","Fig. 4.8; DramDSE exploration in Section 4.8.1"
+gddr5,GDDR5,14.0,,,DRAM,full device,published estimate,"O'Connor et al., MICRO 2017",Fig. 1a
+dram_45nm_horowitz,DRAM (DDR3 era),30.5,20.3,40.6,45 nm era,"whole access, 1.3-2.6 nJ per 64 bits",published estimate,"Horowitz, ISSCC 2014",Fig. 1.1.9
+ddr3_peak,DDR3-1600 x8 at 100% utilization,70,,,DRAM,"IDD-based, includes background (30%) and termination (10%); no refresh",published estimate,"Malladi et al., Towards Energy-Proportional Datacenter Memory with Mobile DRAM, ISCA 2012, doi:10.1145/2366231.2337164",Table 2

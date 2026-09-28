@@ -1,0 +1,130 @@
+{
+  "checkpoint": "microsoft/bitnet-b1.58-2B-4T model.safetensors",
+  "seed": 1,
+  "k": 2560,
+  "eligible_tensors": 180,
+  "eligible_rows": 606720,
+  "zero_density": 0.43865559895833334,
+  "rows": [
+    {
+      "tensor": "model.layers.0.self_attn.o_proj.weight",
+      "row": 2256,
+      "zero_density": 0.505859375
+    },
+    {
+      "tensor": "model.layers.1.mlp.gate_proj.weight",
+      "row": 921,
+      "zero_density": 1.0
+    },
+    {
+      "tensor": "model.layers.10.mlp.up_proj.weight",
+      "row": 4659,
+      "zero_density": 0.440234375
+    },
+    {
+      "tensor": "model.layers.12.mlp.gate_proj.weight",
+      "row": 6565,
+      "zero_density": 0.415625
+    },
+    {
+      "tensor": "model.layers.15.mlp.up_proj.weight",
+      "row": 2728,
+      "zero_density": 0.40625
+    },
+    {
+      "tensor": "model.layers.15.self_attn.k_proj.weight",
+      "row": 527,
+      "zero_density": 0.453125
+    },
+    {
+      "tensor": "model.layers.16.mlp.gate_proj.weight",
+      "row": 3942,
+      "zero_density": 0.4484375
+    },
+    {
+      "tensor": "model.layers.17.mlp.up_proj.weight",
+      "row": 262,
+      "zero_density": 0.3984375
+    },
+    {
+      "tensor": "model.layers.2.mlp.gate_proj.weight",
+      "row": 5578,
+      "zero_density": 0.341015625
+    },
+    {
+      "tensor": "model.layers.2.self_attn.k_proj.weight",
+      "row": 323,
+      "zero_density": 0.515234375
+    },
+    {
+      "tensor": "model.layers.21.mlp.gate_proj.weight",
+      "row": 3946,
+      "zero_density": 0.378515625
+    },
+    {
+      "tensor": "model.layers.22.mlp.up_proj.weight",
+      "row": 249,
+      "zero_density": 0.392578125
+    },
+    {
+      "tensor": "model.layers.23.mlp.gate_proj.weight",
+      "row": 2918,
+      "zero_density": 0.38515625
+    },
+    {
+      "tensor": "model.layers.23.mlp.up_proj.weight",
+      "row": 2950,
+      "zero_density": 0.420703125
+    },
+    {
+      "tensor": "model.layers.26.mlp.gate_proj.weight",
+      "row": 6363,
+      "zero_density": 0.396484375
+    },
+    {
+      "tensor": "model.layers.29.mlp.up_proj.weight",
+      "row": 5329,
+      "zero_density": 0.357421875
+    },
+    {
+      "tensor": "model.layers.29.mlp.up_proj.weight",
+      "row": 6319,
+      "zero_density": 0.37890625
+    },
+    {
+      "tensor": "model.layers.4.self_attn.k_proj.weight",
+      "row": 82,
+      "zero_density": 0.491796875
+    },
+    {
+      "tensor": "model.layers.4.self_attn.o_proj.weight",
+      "row": 2335,
+      "zero_density": 0.426171875
+    },
+    {
+      "tensor": "model.layers.5.mlp.gate_proj.weight",
+      "row": 2760,
+      "zero_density": 0.379296875
+    },
+    {
+      "tensor": "model.layers.5.self_attn.q_proj.weight",
+      "row": 2543,
+      "zero_density": 0.44375
+    },
+    {
+      "tensor": "model.layers.6.mlp.gate_proj.weight",
+      "row": 1419,
+      "zero_density": 0.376953125
+    },
+    {
+      "tensor": "model.layers.8.mlp.up_proj.weight",
+      "row": 2365,
+      "zero_density": 0.3734375
+    },
+    {
+      "tensor": "model.layers.8.mlp.up_proj.weight",
+      "row": 3462,
+      "zero_density": 0.40234375
+    }
+  ]
+}
